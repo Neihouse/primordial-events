@@ -69,6 +69,12 @@ export interface Config {
   collections: {
     users: User;
     media: Media;
+    equipment: Equipment;
+    bookings: Booking;
+    inquiries: Inquiry;
+    services: Service;
+    gallery: Gallery;
+    testimonials: Testimonial;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -78,6 +84,12 @@ export interface Config {
   collectionsSelect: {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
+    equipment: EquipmentSelect<false> | EquipmentSelect<true>;
+    bookings: BookingsSelect<false> | BookingsSelect<true>;
+    inquiries: InquiriesSelect<false> | InquiriesSelect<true>;
+    services: ServicesSelect<false> | ServicesSelect<true>;
+    gallery: GallerySelect<false> | GallerySelect<true>;
+    testimonials: TestimonialsSelect<false> | TestimonialsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -160,6 +172,254 @@ export interface Media {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "equipment".
+ */
+export interface Equipment {
+  id: number;
+  name: string;
+  /**
+   * Format: PE-AUD-001, PE-DJ-002, etc.
+   */
+  assetId: string;
+  category: 'audio' | 'dj' | 'lighting' | 'laser' | 'atmospherics' | 'video' | 'structure' | 'cases' | 'accessories';
+  photos?: (number | Media)[] | null;
+  description?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  specs?:
+    | {
+        label: string;
+        value: string;
+        id?: string | null;
+      }[]
+    | null;
+  pricing: {
+    /**
+     * Current market replacement cost
+     */
+    replacementValue: number;
+    dailyRate: number;
+    /**
+     * Fri-Sun rate
+     */
+    weekendRate: number;
+    weeklyRate?: number | null;
+    depositRequired: number;
+  };
+  serialNumber?: string | null;
+  condition?: ('excellent' | 'good' | 'fair' | 'repair') | null;
+  status: 'available' | 'rented' | 'reserved' | 'maintenance' | 'retired';
+  currentRenter?: string | null;
+  dateOut?: string | null;
+  dateDueBack?: string | null;
+  purchaseDate?: string | null;
+  notes?: string | null;
+  /**
+   * Show in public rental catalog
+   */
+  rentable?: boolean | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "bookings".
+ */
+export interface Booking {
+  id: number;
+  /**
+   * Client or company name
+   */
+  clientName: string;
+  clientEmail: string;
+  clientPhone: string;
+  /**
+   * Company name (if different from client name)
+   */
+  company?: string | null;
+  type: 'rental' | 'dj' | 'trivia' | 'karaoke' | 'production' | 'lighting' | 'audio' | 'custom';
+  eventDate: string;
+  eventEndDate?: string | null;
+  returnDate?: string | null;
+  venue?: string | null;
+  venueAddress?: string | null;
+  eventDescription?: string | null;
+  expectedAttendance?: number | null;
+  /**
+   * Select equipment items for this booking
+   */
+  equipment?: (number | Equipment)[] | null;
+  totalPrice: number;
+  depositAmount?: number | null;
+  depositPaid?: boolean | null;
+  damageWaiverPaid?: boolean | null;
+  paymentMethod?: ('cash' | 'venmo' | 'zelle' | 'card' | 'invoice') | null;
+  status: 'inquiry' | 'quoted' | 'confirmed' | 'deposit-paid' | 'active' | 'completed' | 'cancelled';
+  internalNotes?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "inquiries".
+ */
+export interface Inquiry {
+  id: number;
+  name: string;
+  email: string;
+  phone?: string | null;
+  type?: ('service' | 'rental' | 'general') | null;
+  message: string;
+  preferredDate?: string | null;
+  responded?: boolean | null;
+  /**
+   * Internal notes about how you responded
+   */
+  responseNotes?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "services".
+ */
+export interface Service {
+  id: number;
+  name: string;
+  /**
+   * URL-friendly version of name (e.g., "dj-services")
+   */
+  slug: string;
+  /**
+   * Short one-liner for cards
+   */
+  tagline?: string | null;
+  description: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  };
+  heroImage?: (number | null) | Media;
+  photos?: (number | Media)[] | null;
+  /**
+   * Starting price for display (e.g., 500 for "Starting at $500")
+   */
+  startingPrice?: number | null;
+  features?:
+    | {
+        feature: string;
+        id?: string | null;
+      }[]
+    | null;
+  packages?:
+    | {
+        name: string;
+        /**
+         * e.g., "$500" or "$500/hr" or "Custom Quote"
+         */
+        price: string;
+        description?: string | null;
+        includes?:
+          | {
+              item?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Order on services page (lower = first)
+   */
+  sortOrder?: number | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gallery".
+ */
+export interface Gallery {
+  id: number;
+  title: string;
+  eventType?: ('dj-night' | 'trivia' | 'karaoke' | 'production' | 'private-event' | 'rental-showcase') | null;
+  date?: string | null;
+  venue?: string | null;
+  photos: (number | Media)[];
+  /**
+   * YouTube or Vimeo embed URL
+   */
+  videoUrl?: string | null;
+  description?: string | null;
+  /**
+   * Show on homepage
+   */
+  featured?: boolean | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "testimonials".
+ */
+export interface Testimonial {
+  id: number;
+  clientName: string;
+  /**
+   * e.g., "Venue Owner, Club Tac"
+   */
+  role?: string | null;
+  quote: string;
+  /**
+   * Star rating (1-5)
+   */
+  rating?: number | null;
+  photo?: (number | null) | Media;
+  /**
+   * Show on homepage
+   */
+  featured?: boolean | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -189,6 +449,30 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'media';
         value: number | Media;
+      } | null)
+    | ({
+        relationTo: 'equipment';
+        value: number | Equipment;
+      } | null)
+    | ({
+        relationTo: 'bookings';
+        value: number | Booking;
+      } | null)
+    | ({
+        relationTo: 'inquiries';
+        value: number | Inquiry;
+      } | null)
+    | ({
+        relationTo: 'services';
+        value: number | Service;
+      } | null)
+    | ({
+        relationTo: 'gallery';
+        value: number | Gallery;
+      } | null)
+    | ({
+        relationTo: 'testimonials';
+        value: number | Testimonial;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -271,6 +555,154 @@ export interface MediaSelect<T extends boolean = true> {
   height?: T;
   focalX?: T;
   focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "equipment_select".
+ */
+export interface EquipmentSelect<T extends boolean = true> {
+  name?: T;
+  assetId?: T;
+  category?: T;
+  photos?: T;
+  description?: T;
+  specs?:
+    | T
+    | {
+        label?: T;
+        value?: T;
+        id?: T;
+      };
+  pricing?:
+    | T
+    | {
+        replacementValue?: T;
+        dailyRate?: T;
+        weekendRate?: T;
+        weeklyRate?: T;
+        depositRequired?: T;
+      };
+  serialNumber?: T;
+  condition?: T;
+  status?: T;
+  currentRenter?: T;
+  dateOut?: T;
+  dateDueBack?: T;
+  purchaseDate?: T;
+  notes?: T;
+  rentable?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "bookings_select".
+ */
+export interface BookingsSelect<T extends boolean = true> {
+  clientName?: T;
+  clientEmail?: T;
+  clientPhone?: T;
+  company?: T;
+  type?: T;
+  eventDate?: T;
+  eventEndDate?: T;
+  returnDate?: T;
+  venue?: T;
+  venueAddress?: T;
+  eventDescription?: T;
+  expectedAttendance?: T;
+  equipment?: T;
+  totalPrice?: T;
+  depositAmount?: T;
+  depositPaid?: T;
+  damageWaiverPaid?: T;
+  paymentMethod?: T;
+  status?: T;
+  internalNotes?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "inquiries_select".
+ */
+export interface InquiriesSelect<T extends boolean = true> {
+  name?: T;
+  email?: T;
+  phone?: T;
+  type?: T;
+  message?: T;
+  preferredDate?: T;
+  responded?: T;
+  responseNotes?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "services_select".
+ */
+export interface ServicesSelect<T extends boolean = true> {
+  name?: T;
+  slug?: T;
+  tagline?: T;
+  description?: T;
+  heroImage?: T;
+  photos?: T;
+  startingPrice?: T;
+  features?:
+    | T
+    | {
+        feature?: T;
+        id?: T;
+      };
+  packages?:
+    | T
+    | {
+        name?: T;
+        price?: T;
+        description?: T;
+        includes?:
+          | T
+          | {
+              item?: T;
+              id?: T;
+            };
+        id?: T;
+      };
+  sortOrder?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gallery_select".
+ */
+export interface GallerySelect<T extends boolean = true> {
+  title?: T;
+  eventType?: T;
+  date?: T;
+  venue?: T;
+  photos?: T;
+  videoUrl?: T;
+  description?: T;
+  featured?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "testimonials_select".
+ */
+export interface TestimonialsSelect<T extends boolean = true> {
+  clientName?: T;
+  role?: T;
+  quote?: T;
+  rating?: T;
+  photo?: T;
+  featured?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
