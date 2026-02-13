@@ -1,4 +1,36 @@
-# Task Orchestrator - Automated TODO Execution
+# Scripts Directory
+
+This directory contains automation scripts for Primordial Events.
+
+## Available Scripts
+
+### 1. Outreach Automation (`outreach-automation.ts`)
+
+Email campaign management for business development.
+
+**Quick Start:**
+```bash
+pnpm outreach init          # Initialize database
+pnpm outreach list          # List contacts
+pnpm outreach generate ID   # Generate email draft
+pnpm outreach help          # Full help
+```
+
+**Documentation:**
+- Quick Start: `OUTREACH-AUTOMATION-QUICKSTART.md`
+- Full Docs: `scripts/README-outreach.md`
+
+**Features:**
+- Contact database with 29+ seed contacts
+- Email template personalization from OUTREACH.md
+- Campaign tracking and status management
+- Report generation
+- CSV export
+- NEVER auto-sends emails (draft-only for safety)
+
+---
+
+### 2. Task Orchestrator - Automated TODO Execution
 
 Automatically executes tasks from `TODO.md` using Claude Code agents.
 

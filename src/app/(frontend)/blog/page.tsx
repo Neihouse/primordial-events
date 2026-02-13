@@ -23,7 +23,39 @@ const blogPosts = [
     author: 'Chance Neihouse',
     featured: true,
   },
-  // Future posts will go here
+  {
+    slug: 'how-to-choose-wedding-dj',
+    title: 'How to Choose the Perfect Wedding DJ for Your East Bay Wedding',
+    excerpt:
+      'Expert guide to selecting a wedding DJ in the East Bay. Learn what questions to ask, red flags to avoid, and why local DJs save you money. Includes a complete 10-point checklist for making the right choice.',
+    category: 'Wedding Tips',
+    readTime: '10 min read',
+    publishDate: 'February 12, 2026',
+    author: 'Chance Neihouse',
+    featured: false,
+  },
+  {
+    slug: 'martinez-wedding-venues-guide',
+    title: 'Martinez Wedding Venues: Complete Guide for 2026',
+    excerpt:
+      'Comprehensive guide to Martinez wedding venues including waterfront locations, historic buildings, and community centers. Compare capacities, pricing, and music restrictions to find your perfect venue.',
+    category: 'Wedding Tips',
+    readTime: '9 min read',
+    publishDate: 'February 12, 2026',
+    author: 'Chance Neihouse',
+    featured: false,
+  },
+  {
+    slug: 'corporate-event-entertainment-ideas',
+    title: 'Corporate Event Entertainment Ideas That Actually Work',
+    excerpt:
+      'Proven corporate entertainment solutions from trivia nights to professional DJs. Learn real costs, ROI, and why recurring entertainment builds company culture. Includes budget breakdown for monthly trivia nights.',
+    category: 'Corporate Events',
+    readTime: '10 min read',
+    publishDate: 'February 12, 2026',
+    author: 'Chance Neihouse',
+    featured: false,
+  },
 ]
 
 const categories = ['All Posts', 'Equipment', 'Wedding Tips', 'Corporate Events', 'Behind the Scenes']

@@ -134,12 +134,12 @@ function BookingFormContent() {
           <CardHeader>
             <CardTitle className="text-2xl text-accent">Request Received!</CardTitle>
             <CardDescription>
-              Thank you for your booking inquiry. We&apos;ll review your request and get back to you within 24 hours.
+              Thank you for your booking inquiry. We'll review your request and get back to you within 24 hours.
             </CardDescription>
           </CardHeader>
           <CardContent>
             <p className="mb-4 text-sm text-muted-foreground">
-              We&apos;ve sent a confirmation email to your provided address.
+              We've sent a confirmation email to your provided address.
             </p>
             <Button asChild className="w-full">
               <Link href="/">Return to Homepage</Link>
@@ -158,7 +158,7 @@ function BookingFormContent() {
             Request a Booking
           </h1>
           <p className="text-lg text-muted-foreground">
-            Fill out the form below and we&apos;ll get back to you with a customized quote within 24 hours.
+            Fill out the form below and we'll get back to you with a customized quote within 24 hours.
           </p>
         </div>
 
@@ -337,7 +337,7 @@ function BookingFormContent() {
             <CardHeader>
               <CardTitle>What Do You Need?</CardTitle>
               <CardDescription>
-                Select the type of service or rental you&apos;re interested in
+                Select the type of service or rental you're interested in
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -373,7 +373,7 @@ function BookingFormContent() {
                 <div className="rounded-lg bg-muted p-4">
                   <p className="mb-2 text-sm font-medium">Equipment Selection</p>
                   <p className="mb-3 text-sm text-muted-foreground">
-                    Browse our equipment catalog to see what&apos;s available
+                    Browse our equipment catalog to see what's available
                   </p>
                   <Button type="button" variant="outline" asChild>
                     <Link href="/equipment" target="_blank">

@@ -48,3 +48,9 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Outreach Automation - keep contact data private
+outreach-contacts.json
+outreach-contacts.json.backup
+outreach-contacts.csv
+outreach-drafts/

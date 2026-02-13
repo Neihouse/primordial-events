@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": "venue-example-001",
+      "name": "Example Event Venue",
+      "type": "venue",
+      "email": "events@example-venue.com",
+      "phone": "(925) XXX-XXXX",
+      "city": "Martinez",
+      "status": "not-contacted",
+      "lastContact": null,
+      "notes": "Update with real venue information",
+      "responseReceived": false,
+      "contactHistory": []
+    },
+    {
+      "id": "bar-example-001",
+      "name": "Example Bar & Restaurant",
+      "type": "bar",
+      "email": "info@example-bar.com",
+      "phone": "(925) XXX-XXXX",
+      "city": "Concord",
+      "status": "not-contacted",
+      "lastContact": null,
+      "notes": "Update with real bar/restaurant information",
+      "responseReceived": false,
+      "contactHistory": []
+    },
+    {
+      "id": "school-example-001",
+      "name": "Example Unified School District",
+      "type": "school",
+      "email": "activities@example-schools.edu",
+      "phone": "(925) XXX-XXXX",
+      "city": "Walnut Creek",
+      "status": "not-contacted",
+      "lastContact": null,
+      "notes": "Update with real school district information",
+      "responseReceived": false,
+      "contactHistory": []
+    }
+  ],
+  "lastUpdated": "2026-02-12T00:00:00.000Z"
+}

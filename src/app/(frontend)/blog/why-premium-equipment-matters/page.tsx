@@ -17,18 +17,18 @@ export const metadata: Metadata = {
 
 const relatedPosts = [
   {
-    title: 'How to Choose the Right DJ for Your Wedding',
-    slug: '#',
+    title: 'How to Choose the Perfect Wedding DJ for Your East Bay Wedding',
+    slug: '/blog/how-to-choose-wedding-dj',
     category: 'Wedding Tips',
   },
   {
-    title: 'East Bay Wedding Venue Guide',
-    slug: '#',
+    title: 'Martinez Wedding Venues: Complete Guide for 2026',
+    slug: '/blog/martinez-wedding-venues-guide',
     category: 'Wedding Tips',
   },
   {
-    title: 'What to Look for in Corporate Event Entertainment',
-    slug: '#',
+    title: 'Corporate Event Entertainment Ideas That Actually Work',
+    slug: '/blog/corporate-event-entertainment-ideas',
     category: 'Corporate Events',
   },
 ]
@@ -467,10 +467,16 @@ export default function WhyPremiumEquipmentMattersPage() {
                     <Badge variant="secondary" className="mb-2 w-fit">
                       {post.category}
                     </Badge>
-                    <CardTitle className="text-lg">{post.title}</CardTitle>
+                    <CardTitle className="text-lg">
+                      <Link href={post.slug} className="hover:text-primary">
+                        {post.title}
+                      </Link>
+                    </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">Coming soon</p>
+                    <Button asChild variant="ghost" size="sm">
+                      <Link href={post.slug}>Read More</Link>
+                    </Button>
                   </CardContent>
                 </Card>
               ))}
