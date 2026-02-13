@@ -2,509 +2,761 @@
 
 **Last Updated**: February 12, 2026
 **Status**: Active Pricing Structure
-**Positioning**: Premium-but-accessible (between mid-tier and ultra-premium)
 
 ---
 
-## Pricing Philosophy
+## Executive Summary
 
-**Core Principle**: Premium equipment at accessible pricing because we're local to the East Bay - no San Francisco travel fees or overhead.
+### Pricing Philosophy
 
-**Competitive Position**:
-- **Below**: SF ultra-premium services ($5,000-$7,000+)
-- **Above**: Budget/mid-tier DJs ($1,400-$2,800)
-- **Sweet Spot**: $2,200-$4,500 for weddings
+**Premium Equipment, Fair Value Pricing**
+- Position 15-25% above "typical DJ" pricing
+- Below high-end DJ agencies (30-40% cheaper)
+- Value justification: Club-standard equipment ($50K+ inventory)
+- No SF travel fees = instant $200-400 savings vs SF competitors
 
-**Value Proposition**: "Nightclub-quality sound without San Francisco pricing"
+### Competitive Positioning
 
----
-
-## Wedding Packages
-
-### Essential Package
-**Price**: $2,200
-**Duration**: 4 hours
-**Target Market**: Budget-conscious couples who still want quality
-
-**Includes**:
-- Professional DJ & MC
-- Pioneer CDJ-3000 setup
-- BASSBOSS or RCF sound system
-- Wireless microphone
-- Music consultation & planning session
-- No travel fees (East Bay locations)
-
-**Cost Breakdown** (internal):
-- Labor (4 hours): $100/hour = $400
-- Equipment depreciation: ~$200
-- Fuel/transport: $50
-- Profit margin: $1,550 (70.5%)
-
-**Competitive Comparison**:
-- East Bay DJ (competitor): $599 corporate, ~$1,000-1,500 weddings
-- Typical mid-tier: $1,400-1,800
-- **Our advantage**: Premium equipment at similar price point
+| Competitor Type | Typical Price | Our Price | Justification |
+|----------------|---------------|-----------|---------------|
+| Basic DJ (consumer gear) | $800-1,500 | $2,200+ | CDJ-3000s, BASSBOSS speakers, Unity lasers |
+| Mid-tier DJ (prosumer) | $1,500-2,500 | $2,200-3,200 | Better equipment, more comprehensive packages |
+| High-end DJ agency | $3,500-6,000 | $2,200-4,500 | Same equipment quality, lower overhead |
+| SF-based premium DJ | $3,000-5,000 + travel | $2,200-4,500 (no travel) | Local advantage, no travel fees |
 
 ---
 
-### Premium Package (MOST POPULAR)
-**Price**: $3,200
-**Duration**: 6 hours
-**Target Market**: Standard weddings, most bookings expected here
+## 💍 Wedding Packages
 
-**Includes**:
-- Everything in Essential, plus:
-- 6 hours of service (vs 4)
-- Intelligent lighting package (Chauvet Spot 360X moving heads)
-- Wireless LED uplighting (4 Freedom Par H9 units)
-- Professional DJ booth facade (ProX Humpter B3)
-- Extended music planning session
-- Ceremony sound included
+### Package 1: **Essential Premium** - $2,200
+**Target**: Budget-conscious couples who still want quality
 
-**Cost Breakdown** (internal):
-- Labor (6 hours + setup): $150/hour = $900
-- Equipment depreciation: ~$350
-- Fuel/transport: $75
-- Profit margin: $1,875 (58.6%)
+**Included:**
+- 5 hours of DJ services (ceremony through reception)
+- Pioneer CDJ-3000 or CDJ-2000NXS2 setup
+- BASSBOSS SV9-MK3 tops (x2)
+- BASSBOSS BB15-MK3 subwoofer
+- Professional DJM-A9 or DJM-V10LF mixer
+- Wireless microphone for toasts/announcements
+- Basic uplighting (4 LED uplights)
+- Pre-event consultation (30 minutes)
+- Custom playlist curation
+- Professional sound check
+- Backup equipment on-site
 
-**Competitive Comparison**:
-- California Non Stop: $2,000-2,800 mid-range
-- Sounds Elevated: $2,800-5,000 (Pinole, closest premium competitor)
-- **Our advantage**: Match Sounds Elevated equipment, undercut on price
+**Add-ons Available:**
+- Additional hour: $300
+- Ceremony sound: $150
+- Cocktail hour DJ: $200
+- Photo booth: $400
+
+**Perfect For:**
+- Smaller weddings (50-100 guests)
+- Couples prioritizing sound quality over extensive lighting
+- Venue with existing lighting/ambiance
+- Backyard or casual venue weddings
+
+**ROI/Cost Justification:**
+- Equipment value: $15,000+ (CDJ-3000s alone = $4,600)
+- Competitor comparison: Basic DJs charge $800-1,200 with consumer gear
+- Premium position: 45% more than basic, but professional-grade equipment
 
 ---
 
-### Ultimate Package
-**Price**: $4,500
-**Duration**: 8 hours
-**Target Market**: High-end weddings, clients who want "everything"
+### Package 2: **Complete Experience** - $3,200
+**Target**: Most popular - couples wanting full production
 
-**Includes**:
-- Everything in Premium, plus:
-- 8 hours of service (vs 6)
-- Unity laser light show (2x ELITE PRO FB4 systems)
-- Additional moving head intelligent lights
-- Dance floor totem lighting (4x Cedarslink totems)
-- Premium fog/haze effects
-- Unlimited music requests
+**Everything in Essential Premium, PLUS:**
+- 6 hours of DJ services
+- Unity ELITE PRO FB4 laser system (x2)
+- Chauvet Spot 360X moving heads (x4)
+- Enhanced uplighting (8 LED uplights + custom colors)
+- Dance floor lighting effects
+- Extended consultation (60 minutes)
+- Custom lighting design for venue
+- MC services (full announcements, timeline coordination)
+- "Do Not Play" list management
+- Spotify/Apple Music integration for requests
+- Emergency backup DJ on-call
+
+**Add-ons Available:**
+- Cold sparklers (4 units): $300
+- Additional hour: $350
+- Live stream audio feed: $150
+- Second DJ for cocktail hour: $400
+
+**Perfect For:**
+- Traditional weddings (100-200 guests)
+- Couples wanting "wow factor" lighting
+- Indoor venues that need atmosphere
+- Clients who've been to weddings with basic DJs and want better
+
+**ROI/Cost Justification:**
+- Equipment value: $30,000+ (includes lasers, intelligent lighting)
+- Competitor comparison: Mid-tier DJs charge $2,000-2,500 without lasers
+- Premium position: Better than 90% of DJs at competitive pricing
+
+**Why This Is Our Best Seller:**
+- Sweet spot between value and "wow factor"
+- Lasers = memorable, Instagram-worthy moments
+- Comprehensive enough for most venues
+- Competitive with mid-tier DJs but far superior equipment
+
+---
+
+### Package 3: **Ultimate Production** - $4,500
+**Target**: High-end weddings, luxury venues, "spare no expense" clients
+
+**Everything in Complete Experience, PLUS:**
+- 8 hours of DJ services
+- RCF ART-915A tops (x2) added for larger spaces
+- Additional subwoofer (dual BASSBOSS BB15-MK3)
+- Enhanced laser show (synchronized to music)
+- Haze machine for laser effects
+- Full intelligent lighting rig (8 moving heads total)
+- Pre-wedding venue walkthrough
+- Extended consultation (90 minutes + venue visit)
+- Custom monogram/gobo projection
+- Dedicated audio engineer on-site
+- Live mixing with professional transitions
+- Professional photography of equipment setup
 - Post-event playlist delivery
 
-**Cost Breakdown** (internal):
-- Labor (8 hours + setup): $200/hour = $1,600
-- Equipment depreciation: ~$500
-- Fuel/transport/assistant: $150
-- Profit margin: $2,250 (50%)
+**Add-ons Available:**
+- Ceremony + cocktail hour DJ: $500 (included rate)
+- Cold sparklers unlimited: $600
+- Live musician integration: $200 (audio mixing)
+- After-party extension (per hour): $400
 
-**Competitive Comparison**:
-- Sounds Elevated: $5,000-7,000+ for premium
-- Boutique DJs: $4,000-6,000+
-- **Our advantage**: $500-2,500 less than SF premium services, same equipment
+**Perfect For:**
+- Large weddings (200+ guests)
+- Luxury venues requiring exceptional production
+- Outdoor weddings needing powerful sound
+- Clients with specific vision for atmosphere
+- Corporate-level professional events
 
----
+**ROI/Cost Justification:**
+- Equipment value: $50,000+ (full inventory deployment)
+- Competitor comparison: High-end agencies charge $5,000-7,000
+- Premium position: Agency-level quality, 25-40% cheaper
+- SF competitor comparison: $6,000+ with $400-800 travel fees
 
-## Corporate Events
-
-### Team Builder Package
-**Price**: $1,500
-**Duration**: 2-3 hours
-**Target Market**: Company team building, smaller corporate events
-
-**Includes**:
-- Trivia hosting (2 hours)
-- Professional sound system (RCF or smaller setup)
-- Custom trivia content (company-specific or general)
-- Wireless microphones
-- Team scoring & prizes coordination
-
-**Cost Breakdown**:
-- Labor: $500
-- Equipment: $150
-- Trivia content creation: $200
-- Profit margin: $650 (43%)
-
-**Use Case**: Company happy hours, team building events, departmental gatherings
+**Why Clients Choose This:**
+- "Once in a lifetime" mentality
+- Venues like Blackhawk Museum, Boundary Oak, upscale wineries
+- Clients who want nightclub-quality experience
+- Peace of mind with full production team
 
 ---
 
-### Full Production Package
-**Price**: $3,500 - $5,000
-**Duration**: 4-8 hours
-**Target Market**: Large corporate events, conferences, galas
+## 💼 Corporate Event Packages
 
-**Includes**:
-- Professional DJ & MC services
-- Complete BASSBOSS sound system
-- Intelligent lighting package
-- Laser effects
-- Presentation audio support (mixer, mics)
-- Event coordination
-- Custom music curation
+### Small Corporate Event - $1,500
+**Target**: Team building, holiday parties, office celebrations
 
-**Pricing Variables**:
-- $3,500: 4 hours, standard production
-- $4,000: 6 hours, full production
-- $5,000: 8 hours, full production + laser show
-
-**Competitive Comparison**:
-- JustINtertainment: $2,500-4,000 corporate
-- **Our advantage**: Full production capabilities vs basic DJ
-
----
-
-## Premium School Events
-
-### Dance Package
-**Price**: $800
 **Duration**: 4 hours
-**Target Market**: School dances, homecoming, casual events
 
-**Includes**:
-- Professional DJ
-- Premium sound system (RCF ART-915A)
-- Age-appropriate music curation
-- Interactive games & contests
-- Basic lighting effects (LED uplighting)
+**Included:**
+- Professional DJ services
+- CDJ-2000NXS2 setup
+- RCF ART-915A tops (x2)
+- Basic lighting (4 uplights)
+- Wireless microphone (2)
+- Professional announcements/MC
+- Background music + dance floor
+- Client consultation (30 minutes)
+- Custom playlist (corporate-appropriate)
 
-**Cost Breakdown**:
-- Labor: $300
-- Equipment: $100
-- Profit margin: $400 (50%)
+**Perfect For:**
+- 50-150 attendees
+- Office holiday parties
+- Team building events
+- Retirement celebrations
+- Corporate milestone celebrations
 
-**Competitive Comparison**:
-- Typical school DJ: $300-600
-- DJ Shawdy: $500-800
-- **Our advantage**: Premium equipment at competitive price
+**Add-ons:**
+- Trivia hosting: $300
+- Additional hour: $300
+- Presentation AV support: $200
 
----
-
-### Prom Package
-**Price**: $1,200
-**Duration**: 6 hours
-**Target Market**: High school proms, graduation parties
-
-**Includes**:
-- Everything in Dance Package, plus:
-- Intelligent lighting show (moving heads)
-- Laser effects (Unity systems)
-- Premium DJ booth setup
-- Photo-worthy production quality
-- Extended service time (6 hours)
-
-**Cost Breakdown**:
-- Labor: $450
-- Equipment: $200
-- Profit margin: $550 (45.8%)
-
-**Value Proposition**: "Your students deserve the same production quality as a nightclub prom"
+**Invoicing:**
+- NET 30 terms available for established companies
+- W-9 provided
+- Certificate of Insurance included
 
 ---
 
-## Specialty Services
+### Large Corporate Event - $3,000-5,000
+**Target**: Major corporate events, product launches, galas
 
-### Trivia Hosting (Recurring)
-**Price**: $600/month
-**Structure**: Weekly trivia nights (4 per month)
-**Target Market**: Bars, restaurants, breweries
+**Duration**: 6-8 hours
 
-**Includes**:
-- 4 weekly trivia nights (typically 2 hours each)
+**Included:**
+- Full production setup (CDJ-3000s, BASSBOSS, lasers, moving heads)
+- Dedicated audio engineer
+- Professional MC/announcements
+- Multiple wireless microphones
+- Presentation audio support
+- Background music + high-energy dance floor
+- Custom lighting design
+- Pre-event venue walkthrough
+- Extended consultation (60 minutes)
+
+**Perfect For:**
+- 200+ attendees
+- Corporate galas
+- Product launches
+- Award ceremonies
+- Conferences after-parties
+
+**Pricing Variables:**
+- $3,000: 6 hours, standard setup
+- $4,000: 8 hours, enhanced lighting
+- $5,000: Full day, dual setups (presentation + dance floor)
+
+**B2B Benefits:**
+- Certificate of Insurance (COI) provided same-day
+- W-9 for accounting
+- Professional invoicing
+- NET 30 terms for vetted clients
+- References available from past corporate clients
+
+---
+
+## 🎓 School Event Packages
+
+### Standard School Event - $800
+**Target**: Elementary/middle school dances, assemblies
+
+**Duration**: 3 hours
+
+**Included:**
+- Professional DJ services
+- Age-appropriate music library
+- CDJ-2000NXS2 setup
+- RCF speakers (appropriate volume levels)
+- Basic lighting (school-safe, no lasers)
+- Wireless microphone
+- Clean music only (explicit lyrics filtered)
+- Pre-event music list approval
+- Professional liability insurance
+
+**Perfect For:**
+- Elementary school dances
+- Middle school events
+- Assemblies with music
+- School fundraisers
+
+**School District Requirements:**
+- Certificate of Insurance (COI) provided
+- Background check available upon request
+- Professional references from other schools
+- W-9 for district accounting
+
+---
+
+### Premium School Event - $1,200
+**Target**: High school dances, proms, graduations
+
+**Duration**: 4 hours
+
+**Included:**
+- Everything in Standard School Event
+- Enhanced lighting (moving heads, uplights)
+- BASSBOSS sound system (better bass for high schoolers)
+- Extended music library (teen-appropriate)
+- Social media integration (Instagram requests)
+- Professional MC for announcements
+- Custom event branding/signage
+
+**Perfect For:**
+- High school dances
+- Homecoming
+- Prom (see Prom Package below)
+- Graduation parties
+- Senior celebrations
+
+**Add-ons:**
+- Photo booth: $300
+- Additional hour: $200
+- Outdoor sound: $150
+
+---
+
+### Prom Package - $1,500
+**Target**: High school proms (premium event)
+
+**Duration**: 5 hours (including setup/teardown time)
+
+**Included:**
+- Full premium setup (CDJ-3000s, BASSBOSS, moving heads, uplights)
+- Professional lighting design
+- Age-appropriate laser effects (Unity lasers)
+- Dance floor atmosphere
+- Professional MC for court announcements
+- Custom prom theme integration
+- Social media request integration
+- Pre-event consultation with student committee
+- Music list approval process
+
+**Perfect For:**
+- High school proms
+- Large graduation parties
+- School formal dances
+
+**Why Schools Choose This:**
+- Once-a-year premium event
+- Students want "club experience"
+- Competitive with DJ companies but better equipment
+- Professional presentation for parents/administrators
+
+---
+
+## 🎤 Recurring Services
+
+### Weekly Trivia Night - $500/month
+**Target**: Bars, restaurants, breweries
+
+**Commitment**: 4 events/month (weekly)
+
+**Included:**
 - Professional trivia host
-- Sound system included
-- Custom trivia content (rotates weekly)
-- Audience engagement & scoring
+- Trivia questions + answer sheets (provided)
+- Sound system (wireless mic, speakers)
+- 2-hour trivia event
+- Weekly marketing materials (social media graphics)
+- Prize coordination (client provides prizes)
 
-**Cost Breakdown** (per month):
-- Labor (8 hours total): $400
-- Equipment wear: $50
-- Content creation: $50
-- Profit margin: $100 (16.7%)
+**Perfect For:**
+- Bars wanting regular weeknight traffic
+- Restaurants with slow nights (Monday-Wednesday)
+- Breweries building community
 
-**Revenue Model**: Low margin but **recurring revenue** stream
-- 2 venues = $1,200/month recurring
-- 5 venues = $3,000/month recurring
+**Revenue Model:**
+- $500/month = $125/event
+- Client sees 30-50% increase in weeknight revenue
+- Win-win: regular income for us, traffic for them
 
-**Competitive Comparison**:
-- Speakeasy Trivia: Unknown pricing
-- **Our advantage**: Can bundle with DJ/karaoke services
-
----
-
-### Karaoke Hosting (Recurring)
-**Price**: $500/month
-**Structure**: Weekly karaoke nights (4 per month)
-**Target Market**: Bars, restaurants, private clubs
-
-**Includes**:
-- 4 weekly karaoke nights (typically 2-3 hours each)
-- Professional karaoke system
-- Song library (10,000+ songs)
-- Host & technical support
-- Wireless microphones
-
-**Cost Breakdown** (per month):
-- Labor (8-12 hours): $400
-- Equipment wear: $50
-- Profit margin: $50 (10%)
-
-**Revenue Model**: Similar to trivia - recurring revenue focus
+**Pricing Rationale:**
+- Competitive with trivia companies ($100-150/night)
+- Lower than hiring full-time host
+- Easy recurring revenue for Primordial Events
 
 ---
 
-### Equipment Rental Only
+### Weekly Karaoke Night - $600/month
+**Target**: Bars, breweries, private clubs
 
-#### Basic DJ Rental
-**Price**: $400
-**Duration**: Day rental
-**Target Market**: DIY weddings, other DJs needing premium gear
+**Commitment**: 4 events/month (weekly)
 
-**Includes**:
-- Pioneer CDJ-3000 (x2)
-- DJM-A9 or DJM-V10LF mixer
-- Basic speakers (RCF EVOX or similar)
-- Professional setup assistance
-- Technical support phone line
+**Included:**
+- Professional karaoke host
+- Full karaoke system (wireless mics, speakers, screens)
+- 10,000+ song library
+- 3-hour karaoke event
+- Weekly marketing materials
+- Song request management
 
-**Cost Breakdown**:
-- Equipment depreciation: $100
-- Setup time (2 hours): $100
-- Profit margin: $200 (50%)
+**Perfect For:**
+- Dive bars
+- Karaoke enthusiasts
+- Late-night venues
+- Community-building events
 
-**Competitive Comparison**:
-- Stage Lights and Sound: Rents basic CD players, not CDJ-3000s
-- **Our advantage**: Premium equipment quality
+**Revenue Model:**
+- $600/month = $150/event
+- Client sees increased weekend revenue + regular crowd
+- Lower overhead than hiring house band
+
+**Pricing Rationale:**
+- Requires more equipment than trivia
+- Higher energy/commitment from host
+- Competitive pricing vs karaoke companies
 
 ---
 
-#### Premium Sound System
-**Price**: $600
-**Duration**: Day rental
+## 🎵 Equipment Rental (DIY Customers)
 
-**Includes**:
+### Basic DJ Rental - $400/day
+**Target**: DIY weddings, small parties, hobbyist DJs
+
+**Included:**
+- Pioneer CDJ-2000NXS2 (x2)
+- Pioneer DJM-900NXS2 mixer
+- RCF ART-915A tops (x2)
+- All necessary cables
+- Setup instructions
+- Phone support during event
+
+**Not Included:**
+- Delivery/setup ($150 additional)
+- Operator/DJ services
+- Lighting
+
+**Perfect For:**
+- Couples hiring DJ friend
+- DIY backyard weddings
+- Amateur DJs practicing
+- Small house parties (50-100 guests)
+
+**Rental Terms:**
+- $200 security deposit (refundable)
+- Pickup Friday, return Monday
+- Damage waiver available: $50
+- Late return fee: $100/day
+
+**Pricing Rationale:**
+- Equipment cost: $8,000+
+- ROI: 20 rentals = equipment paid off
+- Lower risk than other rental companies (we know the gear)
+- Competitive with AV rental companies ($300-500/day)
+
+---
+
+### Premium Sound Rental - $600/day
+**Target**: Events needing better sound, DJ rentals for other professionals
+
+**Included:**
+- Everything in Basic DJ Rental
+- BASSBOSS SV9-MK3 tops (x2)
 - BASSBOSS BB15-MK3 subwoofer
-- BASSBOSS SV9-MK3 tops (x2) OR RCF ART-915A tops (x2)
-- Powered mixer
-- Cables & stands
-- Setup assistance
+- Enhanced power distribution
+- Professional-grade cables
 
-**Use Case**: DIY events, bands, production companies needing supplemental gear
+**Perfect For:**
+- Medium-sized events (100-200 guests)
+- Professional DJs renting premium gear
+- Outdoor events needing powerful sound
+- Corporate events with in-house AV team
 
----
+**Rental Terms:**
+- Same as Basic DJ Rental
+- $300 security deposit
 
-#### Full Production Rental
-**Price**: $1,200
-**Duration**: Day rental
-
-**Includes**:
-- Complete DJ setup (CDJ-3000s + mixer)
-- Premium sound system (BASSBOSS full rig)
-- Intelligent lighting (4x moving heads OR uplights)
-- Laser systems (optional add +$300)
-- Professional DJ booth
-- Full setup & teardown
-
-**Target Market**: Production companies, large DIY events, venues
+**Pricing Rationale:**
+- Equipment cost: $15,000+
+- ROI: 25 rentals = equipment paid off
+- Competitive with high-end AV rental (would be $800-1,200)
 
 ---
 
-## Add-Ons & Upgrades
+### Full Production Rental - $1,200/day
+**Target**: Experienced DJs, event production companies, large DIY events
 
-### Laser Show Add-On
-**Price**: +$500
-**Adds to**: Any wedding or corporate package
-**Includes**: Unity ELITE PRO FB4 laser systems (x2) with custom programming
+**Included:**
+- Pioneer CDJ-3000 (x2)
+- Pioneer DJM-A9 mixer
+- BASSBOSS full system (tops + subs)
+- Unity ELITE PRO FB4 lasers (x2)
+- Chauvet Spot 360X moving heads (x4)
+- Uplighting package (8 LED uplights)
+- All cables, power distribution, DMX
+- Setup guide + phone support
+
+**Perfect For:**
+- Large DIY weddings (200+ guests)
+- Professional DJs without premium gear
+- Production companies needing supplemental equipment
+- Festival/outdoor events
+
+**Rental Terms:**
+- $500 security deposit
+- Insurance required (renter's liability)
+- Setup available: $300
+- Technical support on-site: $500
+
+**Pricing Rationale:**
+- Equipment cost: $50,000+
+- ROI: 42 rentals = equipment paid off
+- High-end AV rental would be $2,500-4,000/day
+- Risk mitigation: insurance + deposit required
 
 ---
 
-### Extra Hours
-**Price**: $200/hour
-**Applies to**: Any package
-**Note**: Calculated pro-rata based on base package hourly rate
+## 🎁 Add-On Services (All Packages)
 
----
+### Photo Booth
+- **Price**: $300-400 (3-4 hours)
+- **Included**: Instant prints, digital gallery, props, backdrop
+- **Target**: Weddings, corporate events, school dances
+- **Note**: May require partnership with photo booth company (10% commission)
 
-### Additional Lighting
-**Price**: +$300
-**Includes**: 4 additional LED uplights OR 2 additional moving heads
-
----
+### Cold Sparklers
+- **Price**: $75/unit (minimum 4 units = $300)
+- **Included**: DMX-controlled indoor sparklers, synchronized to music
+- **Target**: Wedding grand entrance, first dance, special moments
+- **Cost**: $25/unit, $50 profit/unit
 
 ### Ceremony Sound
-**Price**: +$200 (or included in Premium+)
-**Includes**: Wireless microphone, music playback, arrival setup
+- **Price**: $150
+- **Included**: Wireless microphone, ceremony speaker, audio for processional music
+- **Target**: Outdoor weddings, venues without built-in sound
+- **ROI**: Low time investment (15 min setup), high margin
+
+### Cocktail Hour DJ
+- **Price**: $200-400
+- **Included**: Separate DJ setup for cocktail hour (while main DJ sets up reception)
+- **Target**: Large weddings with separate spaces
+- **Note**: May require second DJ/operator
+
+### Live Stream Audio Feed
+- **Price**: $150
+- **Included**: Professional audio feed for videographer/live stream
+- **Target**: COVID-era weddings, destination weddings with virtual guests
+- **ROI**: Simple audio split, minimal effort
+
+### Haze Machine
+- **Price**: $100
+- **Included**: Professional haze for laser effects, dramatic lighting
+- **Target**: High-end weddings, clubs, events wanting atmosphere
+- **Cost**: $20 haze fluid, $80 profit
+
+### Monogram/Gobo Projection
+- **Price**: $200
+- **Included**: Custom monogram projection (client initials, logo, etc.)
+- **Target**: Upscale weddings, corporate events
+- **Cost**: $50 gobo creation, $150 profit
 
 ---
 
-### Second DJ/Assistant
-**Price**: +$400
-**Use Case**: Very large events, dual room coverage
+## 💡 Dynamic Pricing Strategies
+
+### Peak Season Pricing (May-October)
+- Wedding packages: +$200-300 upcharge for peak season
+- Saturday bookings: No discount
+- Friday/Sunday bookings: -$100 discount
+
+### Off-Season Pricing (November-April)
+- Wedding packages: Standard pricing
+- Weekday bookings: -$200 discount
+- "Last minute" bookings (30 days out): -$300 discount
+
+### Multi-Event Discounts
+- 2 events from same client: 5% off second event
+- 3+ events from same client: 10% off all events
+- Corporate contract (5+ events/year): 15% discount
+
+### Referral Program
+- Client refers new client: $100 credit toward next booking
+- Venue refers client: 10% commission to venue coordinator
+- Wedding planner refers client: 10% commission
+
+### Last-Minute Availability
+- 7-14 days out: -$200 discount
+- 15-30 days out: -$100 discount
+- 30-60 days out: Standard pricing
+- 60+ days out: Standard pricing + preferred scheduling
 
 ---
 
-## Pricing Strategy by Market Segment
+## 📊 Pricing Psychology & Presentation
 
-### Weddings (70% of revenue target)
-- **Entry Point**: $2,200 (Essential)
-- **Average Booking**: $3,200 (Premium) ← Most bookings here
-- **High-End**: $4,500 (Ultimate)
-- **Positioning**: Premium equipment without SF premium pricing
+### How to Present Pricing (Website, Quotes)
 
-**Justification to Customers**:
-- "Same CDJ-3000s used at top SF clubs"
-- "No $300 travel fees from San Francisco"
-- "BASSBOSS speakers vs generic DJ speakers"
-- "Local to Martinez/Concord/Walnut Creek"
+**DO:**
+- Show starting prices: "Wedding packages from $2,200"
+- Use tiered approach: Good/Better/Best
+- Emphasize value: "Club-standard CDJ-3000s included"
+- Compare to competitors: "No SF travel fees = instant savings"
+- Show equipment value: "$50K+ professional inventory"
 
----
+**DON'T:**
+- Hide pricing (forces inquiry)
+- Show only highest price
+- Apologize for pricing
+- Race to bottom with discounts
 
-### Corporate Events (15% of revenue target)
-- **Entry Point**: $1,500 (Team Builder)
-- **Standard**: $3,500-4,000 (Full Production)
-- **High-End**: $5,000+ (8 hours, full production)
-- **Positioning**: Full production capabilities, not just DJ
+### Quote Presentation Format
 
-**Justification to Customers**:
-- "Professional presentation audio support"
-- "Event coordination included"
-- "Same production quality as SF corporate events"
+```
+PRIMORDIAL EVENTS - PROFESSIONAL PROPOSAL
 
----
+Event: [Client Name] Wedding
+Date: [Event Date]
+Venue: [Venue Name]
 
-### School Events (10% of revenue target)
-- **Entry Point**: $800 (Dance Package)
-- **Premium**: $1,200 (Prom Package)
-- **Positioning**: Premium quality at accessible school budgets
+PACKAGE: Complete Experience - $3,200
 
-**Justification to Schools**:
-- "Better equipment than budget DJs"
-- "Photo-worthy production for students' memories"
-- "Safe, age-appropriate entertainment"
-- "Professional liability insurance included"
+Included:
+✓ 6 hours of professional DJ services
+✓ Pioneer CDJ-3000 DJ setup ($4,600 value)
+✓ BASSBOSS speaker system ($8,000 value)
+✓ Unity ELITE laser system ($6,000 value)
+✓ Chauvet intelligent lighting ($4,000 value)
+✓ Professional consultation & planning
+✓ Custom lighting design
+✓ MC services & timeline coordination
 
----
+Add-ons:
++ Ceremony sound: $150
++ Photo booth (3 hours): $400
 
-### Recurring Services (5% of revenue target, but high value)
-- **Trivia**: $600/month per venue
-- **Karaoke**: $500/month per venue
-- **Goal**: 2-5 venues = $1,200-$3,000/month steady income
+TOTAL INVESTMENT: $3,750
 
-**Value**: Predictable cash flow, relationship building, networking
+Equipment Value: $30,000+
+Travel Fees: $0 (local East Bay provider)
 
----
+Next Steps:
+1. Review proposal
+2. Schedule planning call
+3. Sign contract + $500 deposit
+4. Begin custom planning
 
-## Discounts & Promotions
+Questions? Call/text: [PHONE] or email: info@primordial.events
+```
 
-### Multi-Event Discount
-**Offer**: 10% off when booking 3+ events in a year
-**Target**: Schools (homecoming, winter formal, prom)
+### Deposit & Payment Terms
 
----
+**Standard Deposit:**
+- 25% deposit to book date ($500-1,125 depending on package)
+- Remaining balance due 7 days before event
+- Accepted payments: Venmo, Zelle, check, cash
 
-### Off-Peak Discount
-**Offer**: $200 off Sunday-Thursday events
-**Target**: Fill calendar gaps, corporate weekday events
+**Corporate/School Terms:**
+- 50% deposit for first-time clients
+- NET 30 for established clients with PO
+- W-9 provided upon request
+- COI provided with signed contract
 
----
+**Cancellation Policy:**
+- 60+ days before event: Full refund minus $100 admin fee
+- 30-59 days: 50% refund
+- 14-29 days: 25% refund
+- 0-13 days: No refund (date held exclusively)
 
-### Referral Bonus
-**Offer**: $100 off next booking for each referral that books
-**Target**: Build word-of-mouth marketing
-
----
-
-### Early Bird Discount
-**Offer**: $150 off if booked 6+ months in advance
-**Target**: Lock in bookings early, better calendar planning
-
----
-
-## Pricing Guardrails
-
-### Minimum Price
-**Never go below**: $800 for any event
-**Reason**: Protects brand positioning, covers costs + reasonable profit
+**Rescheduling:**
+- Free rescheduling if 60+ days notice
+- $100 rescheduling fee if 30-59 days notice
+- $200 rescheduling fee if less than 30 days
 
 ---
 
-### Maximum Discount
-**Never discount more than**: 20%
-**Reason**: Protects perceived value, avoids race to bottom
+## 🎯 PayloadCMS Admin Updates
+
+### Service Collection Updates
+
+For each service in PayloadCMS admin, update descriptions to include:
+
+1. **DJ Services (Wedding)**
+   - Description: "Professional wedding DJ services with club-standard equipment. Packages from $2,200-4,500 including CDJ-3000s, BASSBOSS speakers, Unity lasers, and intelligent lighting."
+   - Base Price: $2,200
+   - Categories: Weddings, DJ Services, Premium Audio
+
+2. **DJ Services (Corporate)**
+   - Description: "Corporate event DJ and production services. Packages from $1,500-5,000 including professional equipment, MC services, and presentation support. NET 30 terms available."
+   - Base Price: $1,500
+   - Categories: Corporate, DJ Services, Event Production
+
+3. **School Events**
+   - Description: "Age-appropriate DJ services for school dances, proms, and assemblies. Packages from $800-1,500. COI and background checks provided."
+   - Base Price: $800
+   - Categories: Schools, DJ Services, Youth Events
+
+4. **Trivia Hosting**
+   - Description: "Weekly trivia night hosting for bars and restaurants. $500/month for 4 weekly events. Includes professional host, questions, and marketing materials."
+   - Base Price: $500
+   - Categories: Recurring Services, Entertainment, Hospitality
+
+5. **Karaoke Hosting**
+   - Description: "Weekly karaoke night hosting with 10,000+ song library. $600/month for 4 weekly events. Full equipment and professional host included."
+   - Base Price: $600
+   - Categories: Recurring Services, Entertainment, Karaoke
+
+6. **Equipment Rental**
+   - Description: "Professional DJ equipment rental for DIY events. Packages from $400-1,200/day including CDJ-3000s, BASSBOSS speakers, lighting, and lasers."
+   - Base Price: $400
+   - Categories: Equipment Rental, DIY, Audio/Visual
 
 ---
 
-### Travel Fees
-**East Bay (Martinez, Concord, Walnut Creek, etc.)**: $0 - included
-**Extended East Bay (Brentwood, Livermore, Dublin)**: +$100
-**Outside service area (SF, San Jose, etc.)**: +$200-300
-**Reason**: Maintain "no SF travel fees" positioning for core market
-
----
-
-## Revenue Projections (90 Days)
+## 📈 Revenue Projections (90 Days)
 
 ### Conservative Scenario
-- 3 weddings @ avg $2,800 = $8,400
-- 1 corporate @ $3,500 = $3,500
-- 2 school events @ $1,000 avg = $2,000
-- 1 trivia contract @ $600/mo x 3 months = $1,800
-- 2 equipment rentals @ $500 avg = $1,000
-- **Total**: $16,700
+- 3 weddings @ avg $3,000 = $9,000
+- 2 corporate events @ avg $2,500 = $5,000
+- 1 school event @ $1,000 = $1,000
+- 2 equipment rentals @ avg $500 = $1,000
+- **Total: $16,000**
 
-### Moderate Scenario
+### Moderate Scenario (Goal)
 - 5 weddings @ avg $3,200 = $16,000
-- 2 corporate @ avg $4,000 = $8,000
-- 3 school events @ avg $1,000 = $3,000
-- 2 trivia contracts @ $600/mo x 3 months = $3,600
-- 4 equipment rentals @ $600 avg = $2,400
-- **Total**: $33,000
+- 3 corporate events @ avg $3,000 = $9,000
+- 2 school events @ avg $1,000 = $2,000
+- 2 trivia contracts @ $500/month (3 months) = $3,000
+- 4 equipment rentals @ avg $600 = $2,400
+- **Total: $32,400**
 
-### Optimistic Scenario
-- 7 weddings @ avg $3,500 = $24,500
-- 3 corporate @ avg $4,500 = $13,500
-- 5 school events @ avg $1,100 = $5,500
-- 3 recurring contracts @ $550/mo x 3 months = $4,950
-- 6 equipment rentals @ $700 avg = $4,200
-- **Total**: $52,650
-
-**Target**: Moderate scenario ($33,000 in 90 days)
+### Aggressive Scenario
+- 8 weddings @ avg $3,500 = $28,000
+- 5 corporate events @ avg $3,500 = $17,500
+- 3 school events @ avg $1,100 = $3,300
+- 3 trivia/karaoke contracts @ avg $550/month (3 months) = $4,950
+- 6 equipment rentals @ avg $700 = $4,200
+- **Total: $57,950**
 
 ---
 
-## Pricing Psychology
+## ✅ Action Items
 
-### Why $2,200 (not $2,000 or $2,500)?
-- Signals premium positioning (not budget $2,000)
-- Accessible vs $2,500 psychological barrier
-- Competitive vs Sounds Elevated ($2,800 starting)
+1. **Update PayloadCMS Services** (30 minutes)
+   - Log into PayloadCMS admin
+   - Update each service description with pricing ranges
+   - Add base prices to price fields
+   - Verify all packages are listed
 
-### Why $3,200 (not $3,000)?
-- Just under $3,500 psychological barrier
-- Room for $300 discount and still hit $2,900+
-- Matches premium positioning without ultra-premium sticker shock
+2. **Create PRICING.md** ✅ Complete
+   - Document all pricing tiers
+   - Justify pricing strategy
+   - Provide quote templates
 
-### Why $4,500 (not $5,000)?
-- Stays below $5,000 psychological barrier
-- Significantly cheaper than Sounds Elevated ($5,000-7,000)
-- Justifiable for nightclub-quality production
+3. **Update Homepage** (Already complete)
+   - Show starting prices in hero
+   - Link to service pages with pricing
 
----
+4. **Create Quote Templates** (30 minutes)
+   - Word doc or Google doc
+   - Template for weddings
+   - Template for corporate
+   - Template for schools
 
-## Sales Scripts
-
-### Objection: "That's more expensive than [Budget DJ]"
-**Response**: "You're absolutely right - our Essential package at $2,200 is more than a budget DJ. The difference is the equipment: we use the same Pioneer CDJ-3000s and BASSBOSS speakers found in top San Francisco nightclubs. Most DJs use consumer-grade equipment. You'll hear and feel the difference in sound quality - and your guests will too. Plus, we're local to the East Bay, so unlike SF DJs, we don't charge $200-300 travel fees."
-
----
-
-### Objection: "Can you match [Competitor]'s price?"
-**Response**: "I can't match their price because I can't match their equipment - ours is significantly better. But what I can do is show you the difference: [offer to do a sound demo or show equipment comparison]. Once you hear the BASSBOSS bass response versus typical DJ speakers, you'll understand why couples choose us. We're also $500-2,000 less expensive than San Francisco premium DJs with the same equipment."
-
----
-
-### Value Proposition (Elevator Pitch)
-"Primordial Events delivers nightclub-quality sound to East Bay weddings using professional Pioneer CDJ-3000s and BASSBOSS speakers - the same gear used in top SF clubs - at $2,200-4,500. We're local to Martinez/Concord/Walnut Creek, so no San Francisco travel fees. Premium equipment without premium SF pricing."
+5. **Train on Pricing Presentation** (15 minutes)
+   - Practice quote presentations
+   - Know equipment value justifications
+   - Prepare for price objections
 
 ---
 
-**Document Owner**: Chance Neihouse
-**Review Schedule**: Quarterly (or after 20 bookings)
-**Next Review**: May 2026
+## 🎤 Handling Price Objections
+
+### "That's more expensive than I expected"
+
+**Response:**
+"I totally understand - let me show you what you're getting. Most DJs use consumer equipment from Guitar Center. We use the same gear you'd find at top nightclubs - CDJ-3000s are $2,300 each, our BASSBOSS speakers are $8,000 worth of sound. You're getting $30,000-50,000 of equipment for your event. Plus, we're local - SF DJs charge $200-400 in travel fees on top of their rate."
+
+### "I found a DJ for $1,000"
+
+**Response:**
+"That's great that you found an option in your budget! Just make sure to ask them about their equipment. If they're using consumer-grade speakers and controllers, you'll notice the difference - especially with bass response and clarity when the dance floor fills up. We're happy to show you our gear in person so you can see the difference. That said, if budget is tight, we have our Essential package at $2,200 which is much closer to that range."
+
+### "Can you do it for $X?"
+
+**Response (if close):**
+"Let me see what I can do. If we remove [specific feature], I can get you to $X. Would that work?"
+
+**Response (if far apart):**
+"I appreciate you asking, but at that price I wouldn't be able to bring the equipment that makes us different. I'd rather refer you to [competitor] who might be a better fit for your budget than deliver a compromised experience. That said, we do have off-season discounts and last-minute availability rates - when is your event?"
+
+### "We'll think about it"
+
+**Response:**
+"Absolutely - this is a big decision! While you're thinking, is there anything specific holding you back? Price, date availability, or something else? I want to make sure you have all the info you need. Also, heads up - we do offer early booking discounts if you book 60+ days out, and our calendar fills up fast for Saturday weddings."
+
+---
+
+**END OF PRICING STRATEGY**
+
+Next Steps:
+1. Review and approve this pricing structure
+2. Update PayloadCMS admin with service descriptions and base prices
+3. Create quote templates for each service type
+4. Practice presenting pricing to clients with confidence
