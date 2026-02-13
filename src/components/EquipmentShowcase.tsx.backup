@@ -24,7 +24,7 @@ const equipmentData: EquipmentItem[] = [
       '96kHz/32-bit sound card',
       'Club-standard professional media player',
     ],
-    imageUrl: '/equipment-images/pioneer-cdj-3000.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=800&h=600&fit=crop',
     featured: true,
   },
   {
@@ -38,7 +38,7 @@ const equipmentData: EquipmentItem[] = [
       '96kHz/32-bit sound processing',
       'Magvel Fader Pro crossfader',
     ],
-    imageUrl: '/equipment-images/pioneer-djm-a9.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop',
     featured: true,
   },
   {
@@ -52,7 +52,7 @@ const equipmentData: EquipmentItem[] = [
       '4000W peak power',
       'Nightclub-grade subwoofer',
     ],
-    imageUrl: '/equipment-images/bassboss-bb15-mk3.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop',
     featured: true,
   },
   {
@@ -66,7 +66,7 @@ const equipmentData: EquipmentItem[] = [
       'Pairs with BB15-MK3 subwoofer',
       'Professional PA system',
     ],
-    imageUrl: '/equipment-images/bassboss-sv9-mk3.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=600&fit=crop',
   },
   {
     name: 'Chauvet Spot 360X',
@@ -79,7 +79,7 @@ const equipmentData: EquipmentItem[] = [
       'Gobo patterns and prisms',
       'Professional stage lighting',
     ],
-    imageUrl: '/equipment-images/chauvet-spot-360x.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=600&fit=crop',
     featured: true,
   },
   {
@@ -93,7 +93,7 @@ const equipmentData: EquipmentItem[] = [
       'Custom pattern programming',
       'Safe, FDA-compliant operation',
     ],
-    imageUrl: '/equipment-images/unity-elite-pro-fb4.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop',
     featured: true,
   },
   {
@@ -107,7 +107,7 @@ const equipmentData: EquipmentItem[] = [
       '6+ hours battery life',
       'Venue transformation lighting',
     ],
-    imageUrl: '/equipment-images/chauvet-freedom-par-h9.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1556652202-db22f5325878?w=800&h=600&fit=crop',
   },
   {
     name: 'RCF ART-915A',
@@ -120,7 +120,7 @@ const equipmentData: EquipmentItem[] = [
       'Professional PA speaker',
       'Versatile sound reinforcement',
     ],
-    imageUrl: '/equipment-images/rcf-art-915a.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1545484281-4f0f9046e1c0?w=800&h=600&fit=crop',
   },
 ]
 
