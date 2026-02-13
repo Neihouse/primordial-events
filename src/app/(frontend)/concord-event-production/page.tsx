@@ -287,7 +287,7 @@ export default function ConcordEventProductionPage() {
                   <div>
                     <h3 className="mb-2 text-lg font-semibold">Professional-Grade Equipment</h3>
                     <p className="text-sm text-muted-foreground">
-                      Pioneer CDJ-3000s ($2,299 each), BASSBOSS speakers with 21Hz bass response,
+                      Pioneer CDJ-3000s (club-standard media players), BASSBOSS speakers with 21Hz bass response,
                       Unity ELITE lasers, Chauvet moving heads. The same gear used in SF&apos;s top nightclubs.
                     </p>
                   </div>

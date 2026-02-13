@@ -23,7 +23,7 @@ export default function AboutOurEquipmentPage() {
         </h1>
         <p className="mx-auto max-w-3xl text-lg text-muted-foreground">
           Understanding the difference between nightclub-quality gear and typical DJ equipment.
-          Learn why we spent over $50,000 on professional equipment and what it means for your event.
+          Learn about our professional-grade equipment and what it means for your event.
         </p>
       </div>
 
@@ -63,7 +63,7 @@ export default function AboutOurEquipmentPage() {
             </div>
             <CardHeader>
               <CardTitle className="text-2xl">Pioneer CDJ-3000</CardTitle>
-              <CardDescription>Professional Media Player ($2,299 each, we have 2)</CardDescription>
+              <CardDescription>Professional Media Player - Club Standard</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
@@ -112,7 +112,7 @@ export default function AboutOurEquipmentPage() {
             </div>
             <CardHeader>
               <CardTitle className="text-2xl">Pioneer DJM-A9</CardTitle>
-              <CardDescription>4-Channel Professional DJ Mixer ($3,500)</CardDescription>
+              <CardDescription>4-Channel Professional DJ Mixer</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
@@ -430,13 +430,13 @@ export default function AboutOurEquipmentPage() {
                   Consumer DJ controller<br />
                   <span className="text-xs">16-bit audio processing</span><br />
                   <span className="text-xs">Built-in sound card</span><br />
-                  <span className="text-xs mt-1 block font-semibold">Investment: $800-$1,500</span>
+                  <span className="text-xs mt-1 block">Basic consumer-grade setup</span>
                 </td>
                 <td className="p-4 text-sm">
                   Pioneer CDJ-3000 (x2) + DJM-A9<br />
                   <span className="text-xs text-muted-foreground">32-bit/96kHz processing</span><br />
                   <span className="text-xs text-muted-foreground">Club-standard media players</span><br />
-                  <span className="text-xs mt-1 block font-semibold text-primary">Investment: $8,000+</span>
+                  <span className="text-xs mt-1 block font-semibold text-primary">Professional-grade setup</span>
                 </td>
               </tr>
               <tr className="border-b hover:bg-muted/50">
@@ -445,13 +445,13 @@ export default function AboutOurEquipmentPage() {
                   Generic powered subwoofers<br />
                   <span className="text-xs">40-50Hz bass response</span><br />
                   <span className="text-xs">"You can hear the bass"</span><br />
-                  <span className="text-xs mt-1 block font-semibold">Investment: $800-$2,000</span>
+                  <span className="text-xs mt-1 block">Standard consumer speakers</span>
                 </td>
                 <td className="p-4 text-sm">
                   BASSBOSS BB15-MK3 (x2-4)<br />
                   <span className="text-xs text-muted-foreground">21Hz bass response</span><br />
                   <span className="text-xs text-muted-foreground">"You feel the bass in your chest"</span><br />
-                  <span className="text-xs mt-1 block font-semibold text-primary">Investment: $12,000+</span>
+                  <span className="text-xs mt-1 block font-semibold text-primary">Concert-quality system</span>
                 </td>
               </tr>
               <tr className="border-b hover:bg-muted/50">
@@ -460,13 +460,13 @@ export default function AboutOurEquipmentPage() {
                   Standard PA speakers<br />
                   <span className="text-xs">1000W peak power</span><br />
                   <span className="text-xs">Basic 2-way design</span><br />
-                  <span className="text-xs mt-1 block font-semibold">Investment: $600-$1,500</span>
+                  <span className="text-xs mt-1 block">Consumer-grade audio</span>
                 </td>
                 <td className="p-4 text-sm">
                   BASSBOSS SV9-MK3 + RCF ART-915A<br />
                   <span className="text-xs text-muted-foreground">Concert-quality clarity</span><br />
                   <span className="text-xs text-muted-foreground">Matched to subwoofers</span><br />
-                  <span className="text-xs mt-1 block font-semibold text-primary">Investment: $8,000+</span>
+                  <span className="text-xs mt-1 block font-semibold text-primary">Professional sound system</span>
                 </td>
               </tr>
               <tr className="border-b hover:bg-muted/50">
@@ -475,13 +475,13 @@ export default function AboutOurEquipmentPage() {
                   LED uplights or LED bars<br />
                   <span className="text-xs">Static colors, maybe sound-activated</span><br />
                   <span className="text-xs">Basic RGB color mixing</span><br />
-                  <span className="text-xs mt-1 block font-semibold">Investment: $500-$2,000</span>
+                  <span className="text-xs mt-1 block">Basic lighting effects</span>
                 </td>
                 <td className="p-4 text-sm">
                   Chauvet Spot 360X moving heads<br />
                   <span className="text-xs text-muted-foreground">Freedom Par H9 wireless uplights</span><br />
                   <span className="text-xs text-muted-foreground">DMX-controlled intelligent effects</span><br />
-                  <span className="text-xs mt-1 block font-semibold text-primary">Investment: $15,000+</span>
+                  <span className="text-xs mt-1 block font-semibold text-primary">Intelligent lighting system</span>
                 </td>
               </tr>
               <tr className="border-b hover:bg-muted/50">
@@ -490,13 +490,13 @@ export default function AboutOurEquipmentPage() {
                   Maybe some disco lights<br />
                   <span className="text-xs">Basic LED effects</span><br />
                   <span className="text-xs">Fog machine if you're lucky</span><br />
-                  <span className="text-xs mt-1 block font-semibold">Investment: $200-$1,000</span>
+                  <span className="text-xs mt-1 block">Limited effects</span>
                 </td>
                 <td className="p-4 text-sm">
                   Unity ELITE PRO FB4 lasers (x2)<br />
                   <span className="text-xs text-muted-foreground">Professional fog/haze machines</span><br />
                   <span className="text-xs text-muted-foreground">Custom programmed laser shows</span><br />
-                  <span className="text-xs mt-1 block font-semibold text-primary">Investment: $10,000+</span>
+                  <span className="text-xs mt-1 block font-semibold text-primary">Professional laser system</span>
                 </td>
               </tr>
               <tr className="border-b hover:bg-muted/50">
@@ -509,16 +509,16 @@ export default function AboutOurEquipmentPage() {
                   Full backup DJ controller<br />
                   <span className="text-xs text-muted-foreground">Spare microphones and cables</span><br />
                   <span className="text-xs text-muted-foreground">Redundant systems for critical gear</span><br />
-                  <span className="text-xs mt-1 block font-semibold text-primary">Investment: $3,000+</span>
+                  <span className="text-xs mt-1 block font-semibold text-primary">Complete backup system</span>
                 </td>
               </tr>
               <tr className="bg-muted/30">
-                <td className="p-4 font-bold">Total Investment</td>
+                <td className="p-4 font-bold">Equipment Quality</td>
                 <td className="p-4 text-sm font-semibold text-muted-foreground">
-                  $3,000 - $8,000
+                  Consumer-grade setup
                 </td>
                 <td className="p-4 text-sm font-bold text-primary">
-                  $50,000+
+                  Professional nightclub-quality
                 </td>
               </tr>
             </tbody>
@@ -528,7 +528,7 @@ export default function AboutOurEquipmentPage() {
         <div className="mt-8 rounded-lg bg-muted/50 p-6">
           <h3 className="mb-3 text-xl font-semibold">What This Really Means</h3>
           <p className="text-muted-foreground">
-            We're not saying typical DJ equipment is bad—it works for many events. But there's a significant difference between consumer gear and professional nightclub equipment. The investment we've made in premium gear directly translates to better sound quality, more reliable performance, and a more memorable experience for your guests. When you hire us, you're getting equipment normally reserved for San Francisco's top venues.
+            We're not saying typical DJ equipment is bad—it works for many events. But there's a significant difference between consumer gear and professional nightclub equipment. Our professional-grade setup directly translates to better sound quality, more reliable performance, and a more memorable experience for your guests. When you hire us, you're getting equipment normally reserved for San Francisco's top venues.
           </p>
         </div>
       </section>
@@ -562,7 +562,7 @@ export default function AboutOurEquipmentPage() {
               <div>
                 <h3 className="mb-2 text-xl font-semibold">Value Without Compromise</h3>
                 <p className="text-muted-foreground">
-                  We invested over $50,000 in equipment so you don't have to. Many venues charge premium rates just for basic DJ services. We bring nightclub-quality gear to your event at competitive prices. You get professional equipment, experienced operation, and reliable service—without the nightclub price tag.
+                  We invested in professional nightclub-quality equipment so you don't have to. Many venues charge premium rates just for basic DJ services. We bring club-standard gear to your event at competitive prices. You get professional equipment, experienced operation, and reliable service—without the nightclub price tag.
                 </p>
               </div>
             </div>

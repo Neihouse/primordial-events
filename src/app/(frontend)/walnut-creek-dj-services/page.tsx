@@ -36,7 +36,7 @@ const serviceAreas = [
 const equipmentHighlights = [
   {
     name: 'Pioneer CDJ-3000',
-    description: '$2,299 each - Club-standard players with 32-bit audio processing',
+    description: 'Club-standard players with 32-bit audio processing - Professional media players',
   },
   {
     name: 'BASSBOSS Speakers',
@@ -304,7 +304,7 @@ export default function WalnutCreekDJServicesPage() {
                 <div>
                   <h3 className="mb-1 font-semibold">Professional-Grade Audio Excellence</h3>
                   <p className="text-sm text-muted-foreground">
-                    Pioneer CDJ-3000s with pristine 32-bit audio processing ($2,299 each),
+                    Pioneer CDJ-3000s with pristine 32-bit audio processing,
                     BASSBOSS subwoofers delivering room-filling 21Hz bass, Unity ELITE laser systems.
                     The equipment choice of luxury venues and elite events worldwide.
                   </p>

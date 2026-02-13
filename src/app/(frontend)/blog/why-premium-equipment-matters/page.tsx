@@ -97,8 +97,8 @@ export default function WhyPremiumEquipmentMattersPage() {
             <h2 className="mb-4 mt-8 text-3xl font-bold">The Pioneer CDJ-3000: Why It Matters</h2>
 
             <p>
-              At the heart of our DJ setup are Pioneer CDJ-3000s. At $2,299 each (and we bring
-              two), they&apos;re a significant investment. But here&apos;s what that investment
+              At the heart of our DJ setup are Pioneer CDJ-3000s - professional club-standard
+              media players (we bring two). Here&apos;s what this professional-grade equipment
               means for your event:
             </p>
 
@@ -194,7 +194,7 @@ export default function WhyPremiumEquipmentMattersPage() {
             </h2>
 
             <p>
-              Our Pioneer DJM-A9 ($3,500) and DJM-V10LF ($2,500) mixers might not be as visible as
+              Our Pioneer DJM-A9 and DJM-V10LF professional mixers might not be as visible as
               speakers or turntables, but they&apos;re crucial to sound quality.
             </p>
 
@@ -350,11 +350,11 @@ export default function WhyPremiumEquipmentMattersPage() {
               event, or once-in-a-lifetime celebration? You deserve better.
             </p>
 
-            <h2 className="mb-4 mt-8 text-3xl font-bold">The Investment vs. The Alternative</h2>
+            <h2 className="mb-4 mt-8 text-3xl font-bold">Professional Quality vs. Consumer Gear</h2>
 
             <p>
-              Our professional equipment represents over $35,000 in hardware. We maintain it,
-              transport it, set it up, and guarantee it works flawlessly.
+              Our professional nightclub-quality equipment is maintained, transported, set up,
+              and guaranteed to work flawlessly throughout your event.
             </p>
 
             <p>

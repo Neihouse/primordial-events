@@ -17,7 +17,7 @@ const equipmentData: EquipmentItem[] = [
     name: 'Pioneer CDJ-3000',
     model: 'Professional Media Player',
     category: 'DJ Equipment',
-    price: '$2,299 each',
+    price: 'Professional-Grade',
     specs: [
       '9-inch HD touchscreen',
       '32-bit audio processing',
@@ -31,7 +31,7 @@ const equipmentData: EquipmentItem[] = [
     name: 'Pioneer DJM-A9',
     model: '4-Channel Professional DJ Mixer',
     category: 'DJ Equipment',
-    price: '$3,500',
+    price: 'Professional-Grade',
     specs: [
       '4-channel professional mixer',
       'Built-in effects',
@@ -191,7 +191,7 @@ export function EquipmentShowcase() {
         <div className="mb-8 text-center">
           <h2 className="mb-3 text-3xl font-bold tracking-tight">Complete Equipment Inventory</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Over $50,000 in professional DJ, lighting, laser, and audio equipment
+            Professional nightclub-quality DJ, lighting, laser, and audio equipment
           </p>
         </div>
 
@@ -272,7 +272,7 @@ export function EquipmentShowcase() {
                 <td className="p-4 text-sm">
                   Pioneer CDJ-3000 (x2)<br />
                   32-bit professional media players<br />
-                  $2,299 each
+                  Club-standard setup
                 </td>
               </tr>
               <tr className="border-b">
@@ -311,12 +311,12 @@ export function EquipmentShowcase() {
                 </td>
               </tr>
               <tr>
-                <td className="p-4 font-medium">Total Investment</td>
+                <td className="p-4 font-medium">Equipment Quality</td>
                 <td className="p-4 text-sm text-muted-foreground">
-                  $3,000-$8,000
+                  Consumer-grade setup
                 </td>
                 <td className="p-4 text-sm font-semibold text-primary">
-                  $50,000+
+                  Professional nightclub-quality
                 </td>
               </tr>
             </tbody>

@@ -74,9 +74,9 @@ export default function MartinezWeddingDJPage() {
                 professional service at prices that make sense for local events.
               </p>
               <p>
-                Our Pioneer CDJ-3000s ($2,299 each) and BASSBOSS speakers are the same gear used
-                in SF&apos;s top nightclubs. You get that premium experience without the premium
-                San Francisco markup.
+                Our Pioneer CDJ-3000s and BASSBOSS speakers are the same gear used
+                in SF&apos;s top nightclubs. You get that premium experience at competitive
+                East Bay pricing.
               </p>
             </div>
 
@@ -140,7 +140,7 @@ export default function MartinezWeddingDJPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 text-primary">✓</span>
-                    <span className="text-sm">Pioneer CDJ-3000 setup ($4,600 value)</span>
+                    <span className="text-sm">Pioneer CDJ-3000 setup (club-standard)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 text-primary">✓</span>

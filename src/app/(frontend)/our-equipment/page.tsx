@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
   title: 'Professional Equipment | Primordial Events',
-  description: 'Nightclub-quality DJ equipment, sound systems, lighting, and lasers. Pioneer CDJ-3000s, BASSBOSS speakers, Unity lasers, and professional intelligent lighting. Over $50,000 in premium gear.',
+  description: 'Nightclub-quality DJ equipment, sound systems, lighting, and lasers. Pioneer CDJ-3000s, BASSBOSS speakers, Unity lasers, and professional intelligent lighting. Premium professional gear for unforgettable events.',
 }
 
 export default function OurEquipmentPage() {
@@ -19,7 +19,7 @@ export default function OurEquipmentPage() {
         <p className="mx-auto max-w-3xl text-lg text-muted-foreground">
           Professional Pioneer CDJ-3000s, BASSBOSS speakers, Unity lasers, and intelligent lighting.
           This is the same equipment used in top San Francisco nightclubs and music festivals.
-          Over $50,000 invested in premium gear to make your event unforgettable.
+          Premium professional gear to make your event unforgettable.
         </p>
       </div>
 

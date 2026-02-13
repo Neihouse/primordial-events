@@ -120,7 +120,7 @@ const rentalTerms = [
 const whyRentFromUs = [
   {
     title: 'Professional-Grade Equipment',
-    description: 'Over $50,000 in premium gear. Pioneer CDJ-3000s, BASSBOSS speakers, Unity lasers - the same equipment used in San Francisco\'s top nightclubs.',
+    description: 'Premium nightclub-quality gear. Pioneer CDJ-3000s, BASSBOSS speakers, Unity lasers - the same equipment used in San Francisco\'s top nightclubs.',
   },
   {
     title: 'No Travel Fees',
@@ -357,8 +357,8 @@ export default function EquipmentRentalPage() {
                       <p className="font-medium">Damage & Loss Policy:</p>
                       <p className="text-muted-foreground">
                         Renter is responsible for all equipment during rental period. Any damage or
-                        loss will be charged at full replacement value. Pioneer CDJ-3000: $2,299 each,
-                        BASSBOSS BB15-MK3: $1,899, Unity ELITE PRO FB4: $1,999.
+                        loss will be charged at current professional equipment replacement value.
+                        Detailed replacement costs provided in rental agreement.
                       </p>
                       <p className="text-muted-foreground">
                         Minor wear and tear is expected and not charged. We recommend purchasing event
