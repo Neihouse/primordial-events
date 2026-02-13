@@ -12,11 +12,15 @@
     "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
     "lint": "cross-env NODE_OPTIONS=--no-deprecation next lint",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "seed:gallery": "cross-env NODE_OPTIONS=\"--no-deprecation --import=tsx/esm\" tsx scripts/seed-gallery.ts",
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
     "test": "pnpm run test:int && pnpm run test:e2e",
     "test:e2e": "cross-env NODE_OPTIONS=\"--no-deprecation --import=tsx/esm\" playwright test --config=playwright.config.ts",
     "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts",
-    "ci": "payload migrate && pnpm build"
+    "ci": "payload migrate && pnpm build",
+    "tasks:dry": "./scripts/run-tasks.sh dry-run",
+    "tasks:run": "./scripts/run-tasks.sh",
+    "tasks:auto": "./scripts/run-tasks.sh auto"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

@@ -39,14 +39,16 @@ export default async function HomePage() {
   return (
     <div className="flex flex-col">
       <Hero
-        heading="Unforgettable Events Start Here"
-        subheading="Professional DJ services, cutting-edge equipment rental, and full event production for the San Francisco Bay Area"
+        heading="East Bay's Premium Audio Experience"
+        subheading="Nightclub Sound for Your Event • CDJ-3000s • BASSBOSS Speakers • Unity Lasers • No SF Travel Fees"
+        pricingLine="Wedding Packages from $2,200 | Corporate from $1,500 | School Events from $800"
+        showSocialProof={true}
         primaryCTA={{
-          text: 'Book Your Event',
+          text: 'Request a Quote',
           href: '/booking',
         }}
         secondaryCTA={{
-          text: 'Browse Equipment',
+          text: 'See Our Equipment',
           href: '/equipment',
         }}
       />
@@ -83,10 +85,10 @@ export default async function HomePage() {
           <div className="container">
             <div className="mb-12 text-center">
               <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                Featured Equipment
+                Professional-Grade Equipment
               </h2>
               <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-                Premium DJ gear, PA systems, lighting, and lasers available for rent
+                The same Pioneer CDJ-3000s, BASSBOSS speakers, and Unity lasers used in top SF nightclubs - available for your event
               </p>
             </div>
 
@@ -112,7 +114,7 @@ export default async function HomePage() {
             Ready to Make Your Event Amazing?
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/80">
-            Let's discuss your vision and create an unforgettable experience
+            Let&apos;s discuss your vision and create an unforgettable experience
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" variant="default" className="bg-accent hover:bg-accent/90">

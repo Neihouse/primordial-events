@@ -1,6 +1,7 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
+import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -62,7 +63,7 @@ const bookingTypes = [
   { value: 'other', label: 'Other / Custom Package' },
 ]
 
-export default function BookingPage() {
+function BookingFormContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -133,15 +134,15 @@ export default function BookingPage() {
           <CardHeader>
             <CardTitle className="text-2xl text-accent">Request Received!</CardTitle>
             <CardDescription>
-              Thank you for your booking inquiry. We'll review your request and get back to you within 24 hours.
+              Thank you for your booking inquiry. We&apos;ll review your request and get back to you within 24 hours.
             </CardDescription>
           </CardHeader>
           <CardContent>
             <p className="mb-4 text-sm text-muted-foreground">
-              We've sent a confirmation email to your provided address.
+              We&apos;ve sent a confirmation email to your provided address.
             </p>
             <Button asChild className="w-full">
-              <a href="/">Return to Homepage</a>
+              <Link href="/">Return to Homepage</Link>
             </Button>
           </CardContent>
         </Card>
@@ -157,7 +158,7 @@ export default function BookingPage() {
             Request a Booking
           </h1>
           <p className="text-lg text-muted-foreground">
-            Fill out the form below and we'll get back to you with a customized quote within 24 hours.
+            Fill out the form below and we&apos;ll get back to you with a customized quote within 24 hours.
           </p>
         </div>
 
@@ -177,9 +178,14 @@ export default function BookingPage() {
                   id="clientName"
                   {...register('clientName')}
                   placeholder="John Smith"
+                  autoComplete="name"
+                  aria-invalid={errors.clientName ? 'true' : 'false'}
+                  aria-describedby={errors.clientName ? 'clientName-error' : undefined}
                 />
                 {errors.clientName && (
-                  <p className="text-sm text-destructive">{errors.clientName.message}</p>
+                  <p id="clientName-error" className="text-sm text-destructive" role="alert">
+                    {errors.clientName.message}
+                  </p>
                 )}
               </div>
 
@@ -191,9 +197,14 @@ export default function BookingPage() {
                     type="email"
                     {...register('clientEmail')}
                     placeholder="john@example.com"
+                    autoComplete="email"
+                    aria-invalid={errors.clientEmail ? 'true' : 'false'}
+                    aria-describedby={errors.clientEmail ? 'clientEmail-error' : undefined}
                   />
                   {errors.clientEmail && (
-                    <p className="text-sm text-destructive">{errors.clientEmail.message}</p>
+                    <p id="clientEmail-error" className="text-sm text-destructive" role="alert">
+                      {errors.clientEmail.message}
+                    </p>
                   )}
                 </div>
 
@@ -204,9 +215,14 @@ export default function BookingPage() {
                     type="tel"
                     {...register('clientPhone')}
                     placeholder="(555) 123-4567"
+                    autoComplete="tel"
+                    aria-invalid={errors.clientPhone ? 'true' : 'false'}
+                    aria-describedby={errors.clientPhone ? 'clientPhone-error' : undefined}
                   />
                   {errors.clientPhone && (
-                    <p className="text-sm text-destructive">{errors.clientPhone.message}</p>
+                    <p id="clientPhone-error" className="text-sm text-destructive" role="alert">
+                      {errors.clientPhone.message}
+                    </p>
                   )}
                 </div>
               </div>
@@ -228,7 +244,11 @@ export default function BookingPage() {
                   <Select
                     onValueChange={(value) => setValue('eventType', value as any)}
                   >
-                    <SelectTrigger id="eventType">
+                    <SelectTrigger
+                      id="eventType"
+                      aria-invalid={errors.eventType ? 'true' : 'false'}
+                      aria-describedby={errors.eventType ? 'eventType-error' : undefined}
+                    >
                       <SelectValue placeholder="Select event type" />
                     </SelectTrigger>
                     <SelectContent>
@@ -240,7 +260,9 @@ export default function BookingPage() {
                     </SelectContent>
                   </Select>
                   {errors.eventType && (
-                    <p className="text-sm text-destructive">{errors.eventType.message}</p>
+                    <p id="eventType-error" className="text-sm text-destructive" role="alert">
+                      {errors.eventType.message}
+                    </p>
                   )}
                 </div>
 
@@ -251,9 +273,13 @@ export default function BookingPage() {
                     type="date"
                     {...register('eventDate')}
                     min={new Date().toISOString().split('T')[0]}
+                    aria-invalid={errors.eventDate ? 'true' : 'false'}
+                    aria-describedby={errors.eventDate ? 'eventDate-error' : undefined}
                   />
                   {errors.eventDate && (
-                    <p className="text-sm text-destructive">{errors.eventDate.message}</p>
+                    <p id="eventDate-error" className="text-sm text-destructive" role="alert">
+                      {errors.eventDate.message}
+                    </p>
                   )}
                 </div>
               </div>
@@ -264,9 +290,13 @@ export default function BookingPage() {
                   id="eventLocation"
                   {...register('eventLocation')}
                   placeholder="Venue name or address"
+                  aria-invalid={errors.eventLocation ? 'true' : 'false'}
+                  aria-describedby={errors.eventLocation ? 'eventLocation-error' : undefined}
                 />
                 {errors.eventLocation && (
-                  <p className="text-sm text-destructive">{errors.eventLocation.message}</p>
+                  <p id="eventLocation-error" className="text-sm text-destructive" role="alert">
+                    {errors.eventLocation.message}
+                  </p>
                 )}
               </div>
 
@@ -307,7 +337,7 @@ export default function BookingPage() {
             <CardHeader>
               <CardTitle>What Do You Need?</CardTitle>
               <CardDescription>
-                Select the type of service or rental you're interested in
+                Select the type of service or rental you&apos;re interested in
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -317,7 +347,11 @@ export default function BookingPage() {
                   defaultValue={selectedType}
                   onValueChange={(value) => setValue('type', value as any)}
                 >
-                  <SelectTrigger id="type">
+                  <SelectTrigger
+                    id="type"
+                    aria-invalid={errors.type ? 'true' : 'false'}
+                    aria-describedby={errors.type ? 'type-error' : undefined}
+                  >
                     <SelectValue placeholder="Select service type" />
                   </SelectTrigger>
                   <SelectContent>
@@ -329,7 +363,9 @@ export default function BookingPage() {
                   </SelectContent>
                 </Select>
                 {errors.type && (
-                  <p className="text-sm text-destructive">{errors.type.message}</p>
+                  <p id="type-error" className="text-sm text-destructive" role="alert">
+                    {errors.type.message}
+                  </p>
                 )}
               </div>
 
@@ -337,12 +373,12 @@ export default function BookingPage() {
                 <div className="rounded-lg bg-muted p-4">
                   <p className="mb-2 text-sm font-medium">Equipment Selection</p>
                   <p className="mb-3 text-sm text-muted-foreground">
-                    Browse our equipment catalog to see what's available
+                    Browse our equipment catalog to see what&apos;s available
                   </p>
                   <Button type="button" variant="outline" asChild>
-                    <a href="/equipment" target="_blank">
+                    <Link href="/equipment" target="_blank">
                       Browse Equipment Catalog
-                    </a>
+                    </Link>
                   </Button>
                 </div>
               )}
@@ -365,11 +401,15 @@ export default function BookingPage() {
                   {...register('inquiryMessage')}
                   placeholder="Please describe your event, specific equipment needs, setup requirements, or any questions you have..."
                   rows={6}
+                  aria-invalid={errors.inquiryMessage ? 'true' : 'false'}
+                  aria-describedby={errors.inquiryMessage ? 'inquiryMessage-error inquiryMessage-help' : 'inquiryMessage-help'}
                 />
                 {errors.inquiryMessage && (
-                  <p className="text-sm text-destructive">{errors.inquiryMessage.message}</p>
+                  <p id="inquiryMessage-error" className="text-sm text-destructive" role="alert">
+                    {errors.inquiryMessage.message}
+                  </p>
                 )}
-                <p className="text-sm text-muted-foreground">
+                <p id="inquiryMessage-help" className="text-sm text-muted-foreground">
                   The more details you provide, the more accurate our quote will be.
                 </p>
               </div>
@@ -384,16 +424,50 @@ export default function BookingPage() {
 
           <Separator />
 
-          <div className="flex flex-col gap-4 sm:flex-row sm:justify-between">
-            <p className="text-sm text-muted-foreground">
-              * Required fields. We'll respond within 24 hours.
-            </p>
-            <Button type="submit" size="lg" disabled={isSubmitting}>
-              {isSubmitting ? 'Submitting...' : 'Submit Request'}
-            </Button>
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <p className="text-sm text-muted-foreground">
+                * Required fields
+              </p>
+              <Button type="submit" size="lg" disabled={isSubmitting}>
+                {isSubmitting ? 'Submitting...' : 'Submit Request'}
+              </Button>
+            </div>
+            <div className="flex items-center justify-center gap-2 rounded-lg bg-green-50 px-4 py-3 text-center dark:bg-green-950/30">
+              <svg
+                className="h-5 w-5 flex-shrink-0 text-green-600 dark:text-green-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <p className="text-sm font-medium text-green-800 dark:text-green-300">
+                We respond within 2 hours (9am-9pm daily)
+              </p>
+            </div>
           </div>
         </form>
       </div>
     </div>
+  )
+}
+
+export default function BookingPage() {
+  return (
+    <Suspense fallback={
+      <div className="container flex min-h-[60vh] items-center justify-center py-12">
+        <div className="text-center">
+          <div className="mb-4 text-lg font-semibold">Loading booking form...</div>
+        </div>
+      </div>
+    }>
+      <BookingFormContent />
+    </Suspense>
   )
 }

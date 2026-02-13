@@ -399,10 +399,10 @@ export interface Service {
 export interface Gallery {
   id: number;
   title: string;
-  eventType?: ('dj-night' | 'trivia' | 'karaoke' | 'production' | 'private-event' | 'rental-showcase') | null;
+  eventType?: ('wedding' | 'corporate' | 'birthday' | 'school' | 'other') | null;
   date?: string | null;
   venue?: string | null;
-  photos: (number | Media)[];
+  photos?: (number | Media)[] | null;
   /**
    * YouTube or Vimeo embed URL
    */

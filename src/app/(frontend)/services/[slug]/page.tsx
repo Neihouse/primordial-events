@@ -130,7 +130,7 @@ export default async function ServiceDetailPage(props: PageProps) {
       {/* Features */}
       {features.length > 0 && (
         <div className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold">What's Included</h2>
+          <h2 className="mb-6 text-2xl font-bold">What&apos;s Included</h2>
           <Card>
             <CardContent className="p-6">
               <ul className="grid gap-4 sm:grid-cols-2">
@@ -218,7 +218,7 @@ export default async function ServiceDetailPage(props: PageProps) {
           Ready to Book {service.name}?
         </h2>
         <p className="mb-6 text-muted-foreground">
-          Let's discuss your event details and create an unforgettable experience
+          Let&apos;s discuss your event details and create an unforgettable experience
         </p>
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button asChild size="lg">

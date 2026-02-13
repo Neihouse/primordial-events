@@ -19,7 +19,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Ready to make your event unforgettable? We're here to help with equipment
+            Ready to make your event unforgettable? We&apos;re here to help with equipment
             rentals, DJ services, and full event production.
           </p>
         </div>
@@ -69,9 +69,9 @@ export default function ContactPage() {
                 <Separator />
 
                 <div>
-                  <h3 className="mb-1 text-sm font-medium">Response Time</h3>
-                  <p className="text-sm text-muted-foreground">
-                    We typically respond within 24 hours during business days
+                  <h3 className="mb-1 text-sm font-medium">Fast Response Time</h3>
+                  <p className="text-sm font-medium text-green-600 dark:text-green-400">
+                    ✓ We respond within 2 hours (9am-9pm daily)
                   </p>
                 </div>
               </CardContent>
@@ -135,7 +135,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle>Business Hours</CardTitle>
                 <CardDescription>
-                  When we're available
+                  When we&apos;re available
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-2 text-sm">
@@ -183,7 +183,7 @@ export default function ContactPage() {
                 </div>
                 <Separator />
                 <div>
-                  <h4 className="mb-1 font-medium">What's your cancellation policy?</h4>
+                  <h4 className="mb-1 font-medium">What&apos;s your cancellation policy?</h4>
                   <p className="text-muted-foreground">
                     Cancellations made 14+ days before the event receive a full refund.
                     See our terms for details.
@@ -200,7 +200,7 @@ export default function ContactPage() {
             Still Have Questions?
           </h2>
           <p className="mb-6 text-primary-foreground/80">
-            We're here to help! Send us a message and we'll get back to you as soon as possible.
+            We&apos;re here to help! Send us a message and we&apos;ll get back to you as soon as possible.
           </p>
           <Button asChild size="lg" variant="default" className="bg-accent hover:bg-accent/90">
             <Link href="/booking">

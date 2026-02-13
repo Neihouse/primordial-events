@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Separator } from '@/components/ui/separator'
+import { Badge } from '@/components/ui/badge'
+import { ShieldCheck } from 'lucide-react'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -14,6 +16,12 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               Professional DJ, lighting, and equipment rental services for unforgettable events.
             </p>
+            <Link href="/insurance-info" className="inline-block">
+              <Badge variant="secondary" className="gap-1.5">
+                <ShieldCheck className="h-3 w-3" />
+                Fully Insured
+              </Badge>
+            </Link>
           </div>
 
           {/* Quick Links */}
@@ -42,6 +50,14 @@ export function Footer() {
                   className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                   Gallery
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/insurance-info"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  Insurance Info
                 </Link>
               </li>
               <li>

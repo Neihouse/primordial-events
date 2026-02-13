@@ -16,18 +16,15 @@ export async function POST(request: NextRequest) {
         clientName: body.clientName,
         clientEmail: body.clientEmail,
         clientPhone: body.clientPhone,
-        eventType: body.eventType,
-        eventDate: body.eventDate,
-        eventLocation: body.eventLocation,
-        guestCount: body.guestCount ? parseInt(body.guestCount, 10) : undefined,
-        startTime: body.startTime,
-        endTime: body.endTime,
         type: body.type,
-        inquiryMessage: body.inquiryMessage,
+        eventDate: body.eventDate,
+        venue: body.eventLocation,
+        expectedAttendance: body.guestCount ? parseInt(body.guestCount, 10) : undefined,
+        eventDescription: body.inquiryMessage,
+        totalPrice: 0, // Will be updated when quote is generated
         status: 'inquiry',
-        // Include equipment and services if provided
-        equipment: body.equipment || [],
-        services: body.services || [],
+        // Include equipment if provided
+        equipment: body.equipment || undefined,
       },
     })
 

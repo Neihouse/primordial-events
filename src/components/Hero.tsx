@@ -1,9 +1,12 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 
 interface HeroProps {
   heading: string
   subheading?: string
+  pricingLine?: string
+  showSocialProof?: boolean
   primaryCTA?: {
     text: string
     href: string
@@ -18,6 +21,8 @@ interface HeroProps {
 export function Hero({
   heading,
   subheading,
+  pricingLine,
+  showSocialProof = false,
   primaryCTA,
   secondaryCTA,
   backgroundImage,
@@ -41,9 +46,35 @@ export function Hero({
         </h1>
 
         {subheading && (
-          <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/80 sm:text-xl">
+          <p className="mx-auto mb-4 max-w-2xl text-lg text-primary-foreground/80 sm:text-xl">
             {subheading}
           </p>
+        )}
+
+        {pricingLine && (
+          <p className="mx-auto mb-6 max-w-2xl text-xl font-semibold text-accent sm:text-2xl">
+            {pricingLine}
+          </p>
+        )}
+
+        {showSocialProof && (
+          <div className="mx-auto mb-8 flex flex-wrap items-center justify-center gap-3 text-sm text-primary-foreground/90 sm:gap-6 sm:text-base">
+            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
+              ⭐ 4.9/5.0 on Google
+            </Badge>
+            <span className="hidden sm:inline">•</span>
+            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
+              200+ Events in 2025
+            </Badge>
+            <span className="hidden sm:inline">•</span>
+            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
+              Fully Insured
+            </Badge>
+            <span className="hidden sm:inline">•</span>
+            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
+              $50K+ Pro Equipment
+            </Badge>
+          </div>
         )}
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">

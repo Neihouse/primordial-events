@@ -245,12 +245,12 @@ export default async function EquipmentDetailPage(props: PageProps) {
         <div className="mt-12">
           <h2 className="mb-6 text-2xl font-bold">About This Equipment</h2>
           <Card>
-            <CardContent className="prose prose-sm max-w-none p-6 dark:prose-invert">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify(equipment.description),
-                }}
-              />
+            <CardContent className="p-6">
+              <div className="prose prose-sm max-w-none dark:prose-invert">
+                {typeof equipment.description === 'string'
+                  ? equipment.description
+                  : JSON.stringify(equipment.description, null, 2)}
+              </div>
             </CardContent>
           </Card>
         </div>

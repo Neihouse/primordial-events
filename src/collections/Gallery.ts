@@ -19,12 +19,11 @@ export const Gallery: CollectionConfig = {
       name: 'eventType',
       type: 'select',
       options: [
-        { label: 'DJ Night', value: 'dj-night' },
-        { label: 'Trivia', value: 'trivia' },
-        { label: 'Karaoke', value: 'karaoke' },
-        { label: 'Production', value: 'production' },
-        { label: 'Private Event', value: 'private-event' },
-        { label: 'Rental Showcase', value: 'rental-showcase' },
+        { label: 'Wedding', value: 'wedding' },
+        { label: 'Corporate Event', value: 'corporate' },
+        { label: 'Birthday Party', value: 'birthday' },
+        { label: 'School Event', value: 'school' },
+        { label: 'Other Event', value: 'other' },
       ],
     },
     {
@@ -40,7 +39,7 @@ export const Gallery: CollectionConfig = {
       type: 'upload',
       relationTo: 'media',
       hasMany: true,
-      required: true,
+      required: false, // Allow creation without photos initially
     },
     {
       name: 'videoUrl',
