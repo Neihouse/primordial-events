@@ -38,7 +38,7 @@ export function Header() {
             Our Equipment
           </Link>
           <Link
-            href="/equipment"
+            href="/equipment-rental"
             className="text-sm font-medium text-foreground/60 transition-colors hover:text-foreground"
           >
             Rentals
@@ -105,7 +105,7 @@ export function Header() {
                 Our Equipment
               </Link>
               <Link
-                href="/equipment"
+                href="/equipment-rental"
                 className="text-lg font-medium transition-colors hover:text-primary"
                 onClick={() => setOpen(false)}
               >
