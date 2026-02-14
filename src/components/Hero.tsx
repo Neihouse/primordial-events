@@ -28,69 +28,103 @@ export function Hero({
   backgroundImage,
 }: HeroProps) {
   return (
-    <section
-      className="relative flex min-h-[60vh] items-center justify-center bg-primary text-primary-foreground"
-      style={
-        backgroundImage
-          ? {
-              backgroundImage: `linear-gradient(rgba(26, 26, 46, 0.7), rgba(26, 26, 46, 0.7)), url(${backgroundImage})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }
-          : undefined
-      }
-    >
-      <div className="container px-4 py-20 text-center">
-        <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-          {heading}
-        </h1>
+    <section className="relative min-h-[85vh] w-full overflow-hidden bg-gradient-to-br from-secondary via-secondary/95 to-secondary">
+      {/* Animated gradient orbs */}
+      <div className="absolute inset-0">
+        <div className="absolute left-[10%] top-[20%] h-[500px] w-[500px] animate-pulse rounded-full bg-primary/30 blur-[120px]" />
+        <div className="absolute right-[10%] top-[40%] h-[400px] w-[400px] animate-pulse rounded-full bg-accent/20 blur-[100px] [animation-delay:1s]" />
+        <div className="absolute bottom-[10%] left-[40%] h-[450px] w-[450px] animate-pulse rounded-full bg-primary/20 blur-[110px] [animation-delay:2s]" />
+      </div>
 
-        {subheading && (
-          <p className="mx-auto mb-4 max-w-2xl text-lg text-primary-foreground/80 sm:text-xl">
-            {subheading}
-          </p>
-        )}
+      {/* Optional background image overlay */}
+      {backgroundImage && (
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-20"
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+          }}
+        />
+      )}
 
-        {pricingLine && (
-          <p className="mx-auto mb-6 max-w-2xl text-xl font-semibold text-accent sm:text-2xl">
-            {pricingLine}
-          </p>
-        )}
+      {/* Content */}
+      <div className="relative flex min-h-[85vh] items-center justify-center">
+        <div className="container px-4 py-20 text-center">
+          {/* Main heading with gradient text */}
+          <h1 className="mb-6 animate-fade-in text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+            {heading.split(' ').map((word, index) => {
+              // Make last 2 words gradient
+              const words = heading.split(' ')
+              const isGradient = index >= words.length - 2
+              return (
+                <span key={index} className={isGradient ? 'gradient-text' : ''}>
+                  {word}{' '}
+                </span>
+              )
+            })}
+          </h1>
 
-        {showSocialProof && (
-          <div className="mx-auto mb-8 flex flex-wrap items-center justify-center gap-3 text-sm text-primary-foreground/90 sm:gap-6 sm:text-base">
-            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
-              ⭐ 4.9/5.0 on Google
-            </Badge>
-            <span className="hidden sm:inline">•</span>
-            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
-              200+ Events in 2025
-            </Badge>
-            <span className="hidden sm:inline">•</span>
-            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
-              Fully Insured
-            </Badge>
-            <span className="hidden sm:inline">•</span>
-            <Badge variant="secondary" className="bg-accent/20 text-accent hover:bg-accent/30">
-              $50K+ Pro Equipment
-            </Badge>
+          {subheading && (
+            <p className="mx-auto mb-4 max-w-3xl animate-fade-in text-lg text-white/80 sm:text-xl [animation-delay:0.1s]">
+              {subheading}
+            </p>
+          )}
+
+          {pricingLine && (
+            <p className="mx-auto mb-8 max-w-2xl animate-fade-in text-xl font-semibold text-accent sm:text-2xl [animation-delay:0.2s]">
+              {pricingLine}
+            </p>
+          )}
+
+          {showSocialProof && (
+            <div className="mx-auto mb-10 flex animate-fade-in flex-wrap items-center justify-center gap-3 sm:gap-6 [animation-delay:0.3s]">
+              <Badge variant="secondary" className="glass border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-md hover:bg-white/20">
+                ⭐ 4.9/5.0 on Google
+              </Badge>
+              <span className="hidden text-white/40 sm:inline">•</span>
+              <Badge variant="secondary" className="glass border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-md hover:bg-white/20">
+                200+ Events in 2025
+              </Badge>
+              <span className="hidden text-white/40 sm:inline">•</span>
+              <Badge variant="secondary" className="glass border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-md hover:bg-white/20">
+                Fully Insured
+              </Badge>
+              <span className="hidden text-white/40 sm:inline">•</span>
+              <Badge variant="secondary" className="glass border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-md hover:bg-white/20">
+                $50K+ Pro Equipment
+              </Badge>
+            </div>
+          )}
+
+          <div className="flex animate-fade-in flex-col items-center justify-center gap-4 sm:flex-row [animation-delay:0.4s]">
+            {primaryCTA && (
+              <Button
+                asChild
+                size="lg"
+                className="group relative overflow-hidden bg-primary px-8 py-6 text-lg font-semibold text-white shadow-glow transition-all hover:scale-105 hover:shadow-glow"
+              >
+                <Link href={primaryCTA.href}>
+                  <span className="relative z-10">{primaryCTA.text}</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary via-accent/50 to-primary opacity-0 transition-opacity group-hover:opacity-100" />
+                </Link>
+              </Button>
+            )}
+
+            {secondaryCTA && (
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="glass border-2 border-white/30 bg-white/5 px-8 py-6 text-lg font-semibold text-white backdrop-blur-md transition-all hover:scale-105 hover:bg-white/10"
+              >
+                <Link href={secondaryCTA.href}>{secondaryCTA.text}</Link>
+              </Button>
+            )}
           </div>
-        )}
-
-        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          {primaryCTA && (
-            <Button asChild size="lg" variant="default" className="bg-accent hover:bg-accent/90">
-              <Link href={primaryCTA.href}>{primaryCTA.text}</Link>
-            </Button>
-          )}
-
-          {secondaryCTA && (
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-              <Link href={secondaryCTA.href}>{secondaryCTA.text}</Link>
-            </Button>
-          )}
         </div>
       </div>
+
+      {/* Bottom fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
     </section>
   )
 }

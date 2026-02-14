@@ -18,49 +18,62 @@ export function ServiceCard({ service }: ServiceCardProps) {
     : []
 
   return (
-    <Card className="flex h-full flex-col overflow-hidden transition-shadow hover:shadow-lg">
+    <Card className="group relative flex h-full flex-col overflow-hidden border-2 border-border/50 bg-card shadow-card transition-all duration-300 hover:-translate-y-2 hover:border-primary/50 hover:shadow-card-hover">
+      {/* Gradient overlay on hover */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 transition-opacity group-hover:opacity-100" />
+
       <div className="relative aspect-video w-full overflow-hidden bg-muted">
         <Image
           src={heroImage}
           alt={service.name || 'Service'}
           fill
-          className="object-cover"
+          className="object-cover transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           loading="lazy"
         />
+        {/* Gradient overlay on image */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
       </div>
 
-      <CardHeader>
-        <CardTitle>{service.name}</CardTitle>
+      <CardHeader className="relative z-10">
+        <CardTitle className="text-xl font-bold transition-colors group-hover:text-primary">
+          {service.name}
+        </CardTitle>
         {service.tagline && (
-          <CardDescription className="line-clamp-2">
+          <CardDescription className="line-clamp-2 text-base">
             {service.tagline}
           </CardDescription>
         )}
       </CardHeader>
 
-      <CardContent className="flex-1">
+      <CardContent className="relative z-10 flex-1">
         {features.length > 0 && (
-          <ul className="space-y-2">
+          <ul className="space-y-2.5">
             {features.map((feature, index) => (
-              <li key={index} className="flex items-start gap-2 text-sm">
-                <span className="mt-0.5 text-accent">✓</span>
-                <span>{feature}</span>
+              <li key={index} className="flex items-start gap-2.5 text-sm">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
+                  ✓
+                </span>
+                <span className="text-foreground/80">{feature}</span>
               </li>
             ))}
           </ul>
         )}
       </CardContent>
 
-      <CardFooter className="flex items-center justify-between gap-2">
+      <CardFooter className="relative z-10 flex flex-col items-start gap-3 border-t border-border/50 pt-4">
         {service.startingPrice && (
-          <p className="text-lg font-semibold text-primary">
-            Starting at ${service.startingPrice}
+          <p className="text-2xl font-bold text-primary">
+            <span className="text-sm font-normal text-muted-foreground">Starting at</span> ${service.startingPrice}
           </p>
         )}
-        <Button asChild variant={service.startingPrice ? 'outline' : 'default'} className="ml-auto">
+        <Button
+          asChild
+          variant="default"
+          className="w-full bg-primary font-semibold transition-all hover:bg-primary/90 group-hover:shadow-glow"
+        >
           <Link href={`/services/${service.slug}`}>
-            Learn More
+            Learn More →
           </Link>
         </Button>
       </CardFooter>

@@ -7,6 +7,7 @@ import { Hero } from '@/components/Hero'
 import { ServiceCard } from '@/components/ServiceCard'
 import { EquipmentCard } from '@/components/EquipmentCard'
 import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 import type { Service, Equipment } from '@/payload-types'
 
 export default async function HomePage() {
@@ -55,25 +56,28 @@ export default async function HomePage() {
 
       {/* Featured Services */}
       {services.length > 0 && (
-        <section className="container py-20">
-          <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-              Our Services
+        <section className="container py-24">
+          <div className="mb-16 text-center">
+            <Badge variant="outline" className="mb-4 border-primary/30 bg-primary/5 px-4 py-1.5 text-sm font-semibold text-primary">
+              What We Do
+            </Badge>
+            <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
+              Premium <span className="gradient-text">Event Services</span>
             </h2>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+            <p className="mx-auto max-w-3xl text-xl leading-relaxed text-muted-foreground">
               From DJ services to full event production, we bring the energy and expertise to make your event unforgettable
             </p>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}
           </div>
 
-          <div className="mt-12 text-center">
-            <Button asChild size="lg" variant="outline">
-              <Link href="/services">View All Services</Link>
+          <div className="mt-16 text-center">
+            <Button asChild size="lg" variant="outline" className="border-2 px-8 py-6 text-lg font-semibold">
+              <Link href="/services">View All Services →</Link>
             </Button>
           </div>
         </section>
@@ -81,26 +85,33 @@ export default async function HomePage() {
 
       {/* Featured Equipment */}
       {equipment.length > 0 && (
-        <section className="bg-muted/40 py-20">
-          <div className="container">
-            <div className="mb-12 text-center">
-              <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                Professional-Grade Equipment
+        <section className="relative overflow-hidden bg-gradient-to-b from-secondary/5 via-background to-background py-24">
+          {/* Background decoration */}
+          <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:60px_60px]" />
+          <div className="absolute left-0 right-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+
+          <div className="container relative">
+            <div className="mb-16 text-center">
+              <Badge variant="outline" className="mb-4 border-accent/30 bg-accent/5 px-4 py-1.5 text-sm font-semibold text-accent">
+                Professional Gear
+              </Badge>
+              <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
+                <span className="gradient-text">Nightclub-Quality</span> Equipment
               </h2>
-              <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+              <p className="mx-auto max-w-3xl text-xl leading-relaxed text-muted-foreground">
                 The same Pioneer CDJ-3000s, BASSBOSS speakers, and Unity lasers used in top SF nightclubs - available for your event
               </p>
             </div>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {equipment.map((item) => (
                 <EquipmentCard key={item.id} equipment={item} />
               ))}
             </div>
 
-            <div className="mt-12 text-center">
-              <Button asChild size="lg">
-                <Link href="/equipment">View Full Catalog</Link>
+            <div className="mt-16 text-center">
+              <Button asChild size="lg" className="bg-primary px-8 py-6 text-lg font-semibold shadow-glow hover:bg-primary/90 hover:shadow-glow">
+                <Link href="/equipment">View Full Catalog →</Link>
               </Button>
             </div>
           </div>
@@ -108,21 +119,27 @@ export default async function HomePage() {
       )}
 
       {/* CTA Section */}
-      <section className="container py-20">
-        <div className="rounded-lg bg-primary px-8 py-16 text-center text-primary-foreground">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-            Ready to Make Your Event Amazing?
-          </h2>
-          <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/80">
-            Let&apos;s discuss your vision and create an unforgettable experience
-          </p>
-          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button asChild size="lg" variant="default" className="bg-accent hover:bg-accent/90">
-              <Link href="/booking">Request a Quote</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-              <Link href="/contact">Contact Us</Link>
-            </Button>
+      <section className="container py-24">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-primary to-accent p-12 shadow-glow sm:p-16">
+          {/* Animated background orbs */}
+          <div className="absolute right-0 top-0 h-64 w-64 animate-pulse rounded-full bg-white/10 blur-3xl" />
+          <div className="absolute bottom-0 left-0 h-64 w-64 animate-pulse rounded-full bg-accent/20 blur-3xl [animation-delay:1s]" />
+
+          <div className="relative z-10 text-center text-white">
+            <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
+              Ready to Make Your Event <span className="text-accent">Amazing</span>?
+            </h2>
+            <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-white/90">
+              Let&apos;s discuss your vision and create an unforgettable experience with premium equipment and professional service
+            </p>
+            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <Button asChild size="lg" className="bg-white px-8 py-6 text-lg font-semibold text-primary hover:bg-white/90 hover:shadow-glow-cyan">
+                <Link href="/booking">Request a Quote →</Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="glass border-2 border-white/30 bg-white/10 px-8 py-6 text-lg font-semibold text-white backdrop-blur-md hover:bg-white/20">
+                <Link href="/contact">Contact Us</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

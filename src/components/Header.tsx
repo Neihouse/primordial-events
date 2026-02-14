@@ -16,10 +16,10 @@ export function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-primary">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-20 items-center justify-between">
+        <Link href="/" className="group flex items-center space-x-2 transition-all hover:scale-105">
+          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-2xl font-bold text-transparent transition-all group-hover:from-accent group-hover:to-primary">
             Primordial Events
           </span>
         </Link>
